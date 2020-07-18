@@ -1,0 +1,218 @@
+@import "variables.scss";
+.dropdown-item{
+  margin-left: 0!important;
+
+  &:active{
+    background-color: $blueTn!important;
+  }
+
+}
+
+.container-hero{
+  margin-left: 8%;
+}
+
+.points-pattern-left{
+  background-image: url("~assets/img/svg/tnetworks-points-pattern.svg");
+  width: 88px;
+  height: 187px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -8%;
+}
+
+.points-pattern-center{
+  background-image: url("~assets/img/svg/tnetworks-points-pattern-center.svg");
+  width: 225px;
+  height: 187px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  left: -8%;
+}
+
+.points-pattern-section2{
+  background-image: url("~assets/img/svg/tn-points-pattern-section2.svg");
+  width: 225px;
+  height: 187px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 0%;
+  transform: translateY(50%);
+  right: 20px;
+}
+
+.bg-blue-tn{
+  background-color: $blueTn;
+}
+
+.bg-gray-tn{
+  background-color: $grayTn;
+}
+
+.text-blue-tn{
+  color: $blueTn;
+}
+
+.btn-radius{
+  border-radius: 30px;
+}
+.btn-square{
+  border-radius: 5px;
+}
+
+.border-radius-30{
+  border-radius: 30px;
+}
+
+.btn-blue{
+  background-color: $blueTn;
+  color: white!important;
+  a{
+    color: white!important;
+  }
+}
+
+.btn-gray{
+  background-color: $grayTn;
+  color: $blueTn;
+}
+
+
+// Partenrs
+.partner-tn-1{
+  background-image: url("../img/svg/tn-partner-vmware.svg");
+  background-size: cover;
+  width: 118px;
+  height: 18px;
+}
+
+.partner-tn-2{
+  background-image: url("../img/svg/tn-partner-microsoft.svg");
+  background-size: cover;
+  width: 118px;
+  height: 32px;
+}
+.partner-tn-3{
+  background-image: url("../img/svg/tn-partner-veeam.svg");
+  background-size: cover;
+  width: 104px;
+  height: 53px;
+}
+.partner-tn-4{
+  background-image: url("../img/svg/tn-partner-hp.svg");
+  background-size: cover;
+  width: 127px;
+  height: 53px;
+}
+.partner-tn-5{
+  background-image: url("../img/svg/tn-partner-cisco.svg");
+  background-size: cover;
+  width: 92px;
+  height: 48px;
+}
+.partner-tn-6{
+  background-image: url("../img/svg/tn-partner-purestorage.svg");
+  background-size: cover;
+  width: 158px;
+  height: 28px;
+}
+
+.card-industry{
+  transition: background-color 1s ease-in-out;
+  &:hover{
+    background-color: white;
+  }
+}
+
+.container5{
+  margin-left: 10%;
+}
+
+.container6{
+  margin-right: 10%;
+}
+
+.img-side-container{
+  position: relative;
+  img{
+    z-index: 3;
+  }
+  &:after{
+    content: '';
+    background-image: url("../img/svg/tn-bg-side-img.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+.side-right{
+
+  &:after{
+    left: 25%;
+    bottom: -8%;
+  }
+}
+.side-left{
+
+  &:after{
+    left: -25%;
+    bottom: -8%;
+  }
+}
+
+.input-tn{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-family: 'aalto-sans-pro-medium';
+  font-size: $s16;
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+  &::placeholder{
+    font-family: 'aalto-sans-pro-medium';
+    font-size: $s16;
+    color: black;
+  }
+  &:focus, :active{
+    outline: none;
+  }
+}
+
+.logo-tn-footer{
+  width: 108px;
+}
+
+.faceb{
+  width: 13px;
+  height: 24px;
+}
+
+.insta{
+  width: 24px;
+  height: 24px;
+}
+
+.whats{
+  width: 25px;
+  height: 24px;
+}
+//.avatar-contact{
+//  width: 373px;
+//}
