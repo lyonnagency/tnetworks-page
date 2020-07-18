@@ -32,7 +32,7 @@
         </div>
       </div>
       <video loop width="100%" ref="miVideoPlayC">
-        <source src="/videos/v4.mp4" type="video/mp4"/>
+<!--        <source src="/videos/v4.mp4" type="video/mp4"/>-->
         Your browser does not support the video tag.
       </video>
     </section>
@@ -149,7 +149,7 @@
       <div class="d-flex flex-wrap gallery mt-5 px-md-5 justify-content-around col-lg-9 mx-lg-auto">
         <div class="col-12 col-sm-6  mx-md-0 px-0 px-sm-1">
           <div class="gallery-item bg-light skew-reset">
-            <img src="../assets/img/coaches/coach2.png" alt="Mario Salas Oseznos Morelia">
+<!--            <img src="../assets/img/coaches/coach2.png" alt="Mario Salas Oseznos Morelia">-->
           </div>
           <div class="mx-4 px-2">
             <h2 class="d-flex mt-5">
@@ -172,7 +172,7 @@
         </div>
         <div class="col-12 col-sm-6 mx-md-0 px-0 px-sm-1">
           <div class="gallery-item bg-light skew-reset">
-            <img src="../assets/img/coaches/coach1.png" alt="Axel Valderrama Oseznos Morelia">
+<!--            <img src="../assets/img/coaches/coach1.png" alt="Axel Valderrama Oseznos Morelia">-->
           </div>
           <div class="mx-4 px-2">
             <h2 class="d-flex mt-5">
