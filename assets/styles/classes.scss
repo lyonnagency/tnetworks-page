@@ -175,6 +175,7 @@
           margin: 0 15px;
         }
       }
+
       .tnetworks-menu {
         width: 155px;
         height: 50px;
@@ -184,8 +185,9 @@
         color: $purple;
       }
     }
-    .nav-item.fs-login-on-menu{
-      a{
+
+    .nav-item.fs-login-on-menu {
+      a {
         font-size: $s24;
         @include lg {
           font-size: $s15;
@@ -211,7 +213,7 @@
   }
 }
 
-.dropdown-toggle::after{
+.dropdown-toggle::after {
   background-image: url("../img/svg/tnetworks-arrow-down.svg");
   background-size: contain;
   background-position: center;
@@ -311,37 +313,20 @@
 }
 
 .hero-landing {
+
   @include sm {
     height: 400px;
   }
-  @include md{
+  @include md {
     height: 600px;
   }
-  @include lg{
+  @include lg {
     height: 98vh;
   }
-
-  &:before {
-    content: "";
-    background-image: url("../img/svg/torn-bg-hero-landing.svg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    position: absolute;
-    height: 110%;
-    transform: rotateY(180deg);
-    @include sm {
-      top: 0;
-      background-position: right;
-      background-size: 100%;
-      background-repeat: no-repeat;
-      opacity: 0.9;
-      position: absolute;
-      right: -25%;
-      transform: rotateY(0);
-    }
-  }
+  background-image: url("../img/hero-landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 //.player-kid {
@@ -1463,12 +1448,13 @@
     transform: translateY(-30%);
     opacity: 0.2;
   }
+
   .fs-number-sm-139 {
     font-size: $s138;
-    @include sm{
+    @include sm {
       font-size: $s225;
     }
-    @include lg{
+    @include lg {
       font-size: $s272;
     }
   }

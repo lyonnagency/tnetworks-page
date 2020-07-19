@@ -134,7 +134,7 @@
       <nuxt-link to="/" class="text-item brand-icon">
         <img
           width="80"
-          src="~assets/img/svg/header-logo.svg"
+          src="~assets/img/svg/tnetworks-logo.svg"
           alt="Oseznos logo header"
           class="d-lg-none"
         />
@@ -165,7 +165,6 @@
               />
             </b-nav-item>
           </b-navbar-nav>
-
           <!-- Right aligned nav items -->
           <b-navbar-nav
             class="col-12 col-lg-5 justify-content-center align-items-center px-2"

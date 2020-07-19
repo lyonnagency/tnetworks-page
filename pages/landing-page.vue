@@ -1,28 +1,25 @@
 <template>
   <div class="landing-page overflow-hidden">
     <!--    MENU    -->
-    <div class="menu-landing-page w-100 pt-5">
-      <div class="d-flex justify-content-end align-items-center w-100 menu-container">
-        <nuxt-link to="/" class="text-item brand-icon-landing">
-          <img
-            src="~assets/img/svg/header-logo.svg"
-            alt="Oseznos logo header"
-            class="oseznos-menu-brand"
-          />
-        </nuxt-link>
+    <div class="menu-landing-page w-100 pt-5 ">
+      <div class="d-flex justify-content-end align-items-center w-100 menu-container menu-wrapper">
+
         <b-navbar-nav
-          class="social-icons col-4 col-sm-3 col-lg-1 align-items-center flex-row d-flex px-2 justify-content-center">
-          <b-nav-item href="https://www.facebook.com/oseznosmorelia/" target="_blank">
+          class="w-100 align-items-center flex-row d-flex px-2 justify-content-center menu-header justify-content-between container1">
+
+          <nuxt-link to="/" class="text-item">
             <img
-              src="~assets/img/svg/facebook.svg"
-              alt="Facebook Oseznos de Morelia"
+              src="~assets/img/svg/tnetworks-logo-white.svg"
+              alt="Oseznos logo header"
+              class=""
+              width="155"
+              height="49"
             />
-          </b-nav-item>
-          <b-nav-item href="https://www.instagram.com/oseznosmorelia/" target="_blank">
-            <img
-              src="~assets/img/svg/instagram.svg"
-              alt="Instagram Oseznos de Morelia"
-            />
+          </nuxt-link>
+          <b-nav-item
+            class="fs-login-on-menu arrow-after-text btn-bordered-white px-3 py-2"
+            to="/">
+            Contáctenos
           </b-nav-item>
         </b-navbar-nav>
       </div>
@@ -30,57 +27,56 @@
 
     <!--  HERO IMAGE  -->
     <section class="hero hero-landing d-flex align-items-center">
-      <div class="d-flex w-100 container1 flex-wrap flex-sm-nowrap">
-        <div class="player-kid col-lg-4 col-6 col-sm-4"></div>
-        <div class="col-12 col-sm-7 col-lg-6 px-0">
-          <div class="col-12 px-0">
-            <h1
-              class="trapeze trapeze-purple trapeze-purple-darker ff-bebas fs-22 py-lg-2 py-1 my-1 my-md-0 px-4 px-lg-5 mb-lg-3">
-              únete a oseznos
-            </h1>
-          </div>
-          <div class="col-12 px-0">
-            <h2 class="ff-old-school-in-alt font-italic color-purple my-lg-1 my-0 ">
-              <div class="d-block main-text-hero">
-                <span class="trapeze trapeze-yellow px-4 px-md-4 px-lg-0 my-1 py-0 w-fit-content fs-66">
-                  ¡El mejor equipo de
-                </span>
-                <span class="trapeze trapeze-yellow px-4 my-1 py-0 fs-66">
-                    <span class="w-100">Fútbol Americano </span>
-                </span>
-                <span class="trapeze trapeze-yellow px-4 my-1 py-0 fs-66">
-                    <span class="w-100">y tochito de Morelia </span>
-                </span>
-              </div>
+      <div class="d-flex container1 h-100 position-relative">
+        <div class="col-6 d-flex align-items-center flex-wrap">
+          <div class="d-flex flex-wrap mt-5 pt-5">
+            <h2 class="ff-flexo-bold fs-72 w-100 mb-5 pb-4 text-white">
+              Almacenamiento <br> All-Flash.
             </h2>
+            <p class="ff-aalto-sans-pro-medium fs-18 text-white">
+              Pure Storage® rediseña la arquitectura de almacenamiento en un modelo <strong>Evergreen™</strong> que habilita aplicaciones
+              de última generación eliminando las costosas actualizaciones y disminuyendo los tiempos de espera.
+            </p>
+            <button
+              class="arrow-after-text arrow-after-text-bold btn-radius btn-bordered-bottom-white px-0 py-2 mt-4 btn fs-16 ff-aalto-sans-pro-medium">
+              <p class="mx-0 mb-0">Contáctenos</p>
+            </button>
           </div>
         </div>
-        <div
-          class="col-8 col-sm-5 px-md-3 col-lg-5 mt-4 offset-sm-1 d-flex align-items-center justify-content-end px-0">
-          <div class="d-flex flex-wrap">
-            <h2 class="ff-old-school-in-alt fs-46 color-purple">
-              ¡ Aparta tu lugar y ven a la clase muestra !
-            </h2>
-            <div class="w-100">
-              <nuxt-link to="/registro"
-                         class="trapeze trapeze-purple trapeze-purple-darker ff-bebas fs-22 line-overflow line-overflow-yellow line-overflow-left px-lg-5 px-4 py-3 py-lg-4 my-1 my-md-2">
-                <span class="px-3"> ¡ Únete al club !</span>
-              </nuxt-link>
+        <div class="col-6 d-flex flex-wrap justify-content-end align-items-center position-relative ml-5">
+          <div class="d-flex flex-wrap justify-content-end mt-5 pt-5">
+            <div class="item-hero d-flex col-10 align-items-center pb-4">
+              <div class="col-5 d-flex justify-content-center mr-3">
+                <img width="127" height="127" src="../assets/img/svg/tn-landing-hero-1.svg" alt="">
+              </div>
+              <div class="col-5 d-flex justify-content-center mr-3">
+                <p class="ff-aalto-pans-pro-semiboldIt text-white">
+                  2.5x de eficiencia de almacenamiento
+                </p>
+              </div>
+            </div>
+            <div class="item-hero d-flex col-10 align-items-center pb-4">
+              <div class="col-5 d-flex justify-content-center mr-3">
+                <img width="127" height="127" src="../assets/img/svg/tn-landing-hero-2.svg" alt="">
+              </div>
+              <div class="col-5">
+                <p class="ff-aalto-pans-pro-semiboldIt text-white">
+                  Ahorro promedio de <br> US $500k
+                </p>
+              </div>
+            </div>
+            <div class="item-hero d-flex col-10 align-items-center">
+              <div class="col-5 d-flex justify-content-center mr-3">
+                <img width="127" height="127" src="../assets/img/svg/tn-landing-hero-3.svg" alt="">
+              </div>
+              <div class="col-5">
+                <p class="ff-aalto-pans-pro-semiboldIt text-white">
+                  Costo total de <br> propiedad 50% <br> más bajo
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section class="torn-bg torn-bg-purple space-section-bottom z-index-10">
-      <div class="w-100">
-        <div
-          class="content-torn container1 d-flex flex-wrap align-items-center justify-content-center"
-        >
-          <div class="col-12 py-2">
-            <h2 class="color-yellow ff-old-school-regular fs-24 mb-3 my-md-0 text-center">
-              Para niños y niñas entre 5 y 17 años
-            </h2>
-          </div>
+
         </div>
       </div>
     </section>
@@ -189,7 +185,7 @@
         <div class="d-flex flex-wrap ball-section justify-content-center">
           <div class="col-12 col-sm-6 col-md-7 col-lg-9 px-0 d-md-flex align-items-center">
             <div class="ball-wrapper">
-<!--              <img src="~assets/img/ball.png" alt="Balón Oseznos"/>-->
+              <!--              <img src="~assets/img/ball.png" alt="Balón Oseznos"/>-->
             </div>
             <div class="mr-lg- my-4 px-4 px-md-0">
               <h2 class="font-italic color-yellow ff-old-school-in-alt fs-40">
