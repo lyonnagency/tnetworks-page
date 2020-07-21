@@ -58,9 +58,16 @@
 .bg-gray-tn{
   background-color: $grayTn;
 }
+.bg-gray-tn-land{
+  background-color: $grayTnLand;
+}
 
 .text-blue-tn{
   color: $blueTn;
+}
+
+.text-orange-tn{
+  color: $ornageTn;
 }
 
 .btn-radius{
@@ -72,6 +79,10 @@
 
 .border-radius-30{
   border-radius: 30px;
+}
+
+.border-radius-10{
+  border-radius: 10px;
 }
 
 .btn-blue{
@@ -87,6 +98,13 @@
   color: $blueTn;
 }
 
+.bg-cta-landing{
+  background-image: url("../img/svg/tn-bg-cta-landing.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .btn-bordered-white{
   border-radius: 10px;
   background-color: transparent;
@@ -94,6 +112,12 @@
   a{
     color: white!important;
   }
+}
+
+.btn-bordered-white-thin{
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid white;
 }
 .btn-bordered-bottom-white{
   border-radius: 0;
@@ -211,6 +235,39 @@
   }
 }
 
+.side-1{
+
+  &:after{
+    background-image: url("../img/svg/tn-bg-landing-img.svg");
+    width: 80%;
+    height: 130%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+  }
+}
+.side-2{
+  &:after{
+    background-image: url("../img/svg/tn-bg-landing-img.svg");
+    left: -0;
+    bottom: 15%;
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.side-3{
+  &:after{
+    background-image: url("../img/svg/tn-bg-landing-img.svg");
+    right: -25%;
+    //bottom: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90%;
+    height: 90%;
+  }
+}
+
 .input-tn{
   width: 100%;
   background-color: transparent;
@@ -248,6 +305,48 @@
   width: 25px;
   height: 24px;
 }
+
+.version-landing{
+  h3.text-blue-tn{
+    color: black;
+  }
+
+  p{
+    color: $ornageTn;
+  }
+
+  button.btn-blue{
+    background-color: $ornageTn;
+    p{
+      color: white;
+      font-family: aalto-sans-pro-medium;
+      font-weight: 300;
+    }
+  }
+}
+
+.carousel-item{
+  .carousel-caption{
+    text-shadow: none;
+    position: initial;
+  }
+}
+.text-shadow-0{
+  text-shadow: none;
+}
+
+.carousel-indicators{
+  li{
+    height: 5px;
+    width: 5px;
+    border-radius: 15px;
+    background-color: #666666;
+  }
+  li.active{
+    background-color: $ornageTn;
+  }
+}
+
 //.avatar-contact{
 //  width: 373px;
 //}

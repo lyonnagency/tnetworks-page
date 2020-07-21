@@ -203,7 +203,6 @@
         </div>
       </div>
     </section>
-
     <section class="py-5 container2">
       <div class="py-5">
         <h2 class="ff-flexo-bold fs-20 text-blue-tn text-uppercase mb-5 ">Confían en nosotros _</h2>

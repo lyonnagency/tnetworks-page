@@ -127,6 +127,10 @@
         let formD = new FormData();
         formD.append("puesto", this.puesto);
         formD.append("empresa", this.empresa);
+        console.log(this.verForm)
+        if (this.verForm=='version-landing'){
+          alert()
+        }
         // formD.append("namePlayer", this.playerNameOsezno);
         // formD.append("phone", this.phoneOsezno);
         this.msgButton = "Enviando...";
@@ -156,8 +160,15 @@
         empresa: "",
         phoneOsezno: "",
         playerNameOsezno: "",
-        msgButton: "Solicitar más informes a mi correo"
+        msgButton: "Solicitar más informes a mi correo",
+        verForm:this.versionForm
       };
+    },
+    props:{
+      versionForm:{
+        type: String,
+        default:''
+      }
     }
   }
 </script>

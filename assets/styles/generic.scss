@@ -41,6 +41,10 @@ a {
 font-family: 'flexo-bold';
 }
 
+.ff-flexo-regular{
+font-family: 'flexo-regular';
+}
+
 .ff-aalto-sans-pro-medium{
   font-family: 'aalto-sans-pro-medium';
 }
@@ -131,6 +135,18 @@ font-family: 'flexo-bold';
 // .fs-sm-18{
 //   font-size: 18px!important;
 // }
+.fs-20 {
+  font-size: $s20;
+  //font-size: calc((0.6 * 22px));
+
+  //@include md {
+  //  font-size: calc((0.7 * 22px));
+  //}
+  //
+  @include lg {
+    font-size: $s20;
+  }
+}
 
 .fs-22 {
   font-size: $s16;
@@ -167,6 +183,14 @@ font-family: 'flexo-bold';
 }
 .fs-28 {
   font-size: $s28;
+}
+
+.fs-30 {
+  font-size: $s30;
+}
+
+.fs-35 {
+  font-size: $s35;
 }
 
 .fs-40 {
