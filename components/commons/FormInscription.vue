@@ -1,115 +1,64 @@
 <template>
-  <section class=" form-inscriptions">
+  <section class="form-inscriptions col-12 pr-0">
     <div class="form">
-      <h3 class="fs-28 ff-flexo-bold text-blue-tn">¿Listo?, platiquemos. <br>
+      <h3 class="fs-32 fs-xs-32 ff-flexo-bold text-blue-tn text-center text-sm-left ">¿Listo?, platiquemos.
+        <br class="d-none d-lg-block">
         Le atiende Fernanda Peña.</h3>
-      <p class="ff-flexo-bold fs-14">CUSTOMER ADQUISITION MANAGER_</p>
+      <p class="ff-flexo-bold fs-14 text-center text-sm-left mt-4">CUSTOMER ADQUISITION MANAGER_</p>
       <ValidationObserver
         class="col-12 d-flex align-items-center pr-0 px-0 mt-5"
         v-slot="{ handleSubmit }">
         <form
           @submit.prevent="handleSubmit(sendMail)"
-          class="d-flex flex-wrap"
+          class="d-flex flex-wrap col-12 pl-0"
           action="#"
           method="post"
         >
           <div class="col-12 d-flex flex-wrap px-0">
-            <div class="col-12 col-lg-12 pl-0 d-flex">
+            <div class="col-12 col-lg-12 pl-sm-0 d-flex flex-wrap align-items-end">
               <ValidationProvider
                 name="empresa"
-                rules="required|alpha_spaces"
+                rules="required"
                 v-slot="{ errors }"
                 ref="empresaIn"
-                class="col-4 pl-0"
+                class="col-12 col-lg-6 pl-sm-0"
               >
                 <input
                   type="text"
                   placeholder="Empresa"
                   v-model="empresa"
-                  class="input-tn pl-4 pl-lg-0"
+                  class="input-tn pl-lg-0 mb-2"
                 />
-                <p class="color-purple ff-flexo-bold fs-12">{{ errors[0] }}</p>
+                <p class="color-purple ff-aalto-sans-pro-medium fs-12 text-error">{{ errors[0] }}</p>
               </ValidationProvider>
               <ValidationProvider
                 name="Puesto"
                 rules="required"
                 v-slot="{ errors }"
                 ref="puestoIn"
-                class="col-4"
+                class="col-12 col-lg-6 pl-sm-0"
               >
                 <input
                   type="text"
                   placeholder="Puesto"
                   v-model="puesto"
-                  class="input-tn pl-4 pl-lg-0"
+                  class="input-tn pl-lg-0 mb-2"
                 />
-                <span class="color-purple ff-flexo-bold fs-12">{{ errors[0] }}</span>
+                <p class="color-purple ff-aalto-sans-pro-medium fs-12 text-error">{{ errors[0] }}</p>
               </ValidationProvider>
 
-              <div class="col-4 d-flex flex-wrap px-0 align-items-center">
-                <button type="submit" class="btn-square btn-blue  py-2 btn fs-16 ff-flexo-bold arrow-after-text">
-                  <p class="mx-2 mb-0">contactar</p>
+              <div class="col-12 col-lg-6 d-flex flex-wrap align-items-center pr-sm-0 pl-sm-0 justify-content-center justify-content-sm-start mt-4 mt-sm-0 mt-lg-3">
+                <button type="submit" class="py-3 btn-radius btn-blue py-2 btn fs-xs-14 fs-16 ff-aalto-sans-pro-medium arrow-after-text mt-sm-3">
+                  <p class="mx-3 mb-0">Contáctenos</p>
                 </button>
               </div>
             </div>
-            <div class="col-12">
-              <span v-show="mailStatus" class="col-12 ff-bebas fs-18 color-purple mt-2">
+            <div class="col-12 d-flex px-0 mt-3">
+              <span v-show="mailStatus" class="col-12 text-center ff-aalto-sans-pro-medium fs-18 color-purple mt-2 px-0">
                 Gracias por ponerte en contacto, nos comunicaremos a la brevedad
               </span>
             </div>
-            <!--            <div class="col-12 col-lg-6 d-flex align-items-end flex-wrap">-->
-            <!--              <ValidationProvider-->
-            <!--                name="Nombre de jugador"-->
-            <!--                rules="required|alpha_spaces"-->
-            <!--                v-slot="{ errors }"-->
-            <!--                ref="playerNameOsezno"-->
-            <!--                class="w-100"-->
-            <!--              >-->
-            <!--                <input-->
-            <!--                  type="text"-->
-            <!--                  placeholder="Escribe tu nombre de jugador"-->
-            <!--                  v-model="playerNameOsezno"-->
-            <!--                  class="input-oseznos input-purple pl-4 pl-lg-0"-->
-            <!--                />-->
-            <!--                <span class="color-purple ff-bebas fs-12">{{ errors[0] }}</span>-->
-            <!--              </ValidationProvider>-->
-            <!--              <ValidationProvider-->
-            <!--                name="teléfono"-->
-            <!--                :rules="{-->
-            <!--                    regex: /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/,-->
-            <!--                    required: true-->
-            <!--                 }"-->
-            <!--                v-slot="{ errors }"-->
-            <!--                ref="phoneIn"-->
-            <!--                class="w-100"-->
-            <!--              >-->
-            <!--                <input-->
-            <!--                  type="text"-->
-            <!--                  v-model="phoneOsezno"-->
-            <!--                  placeholder="Escribe tu teléfono"-->
-            <!--                  class="input-oseznos input-purple pl-4 pl-lg-0"-->
-            <!--                />-->
-            <!--                <span class="color-purple ff-bebas fs-12">{{ errors[0] }}</span>-->
-            <!--              </ValidationProvider>-->
-            <!--            </div>-->
           </div>
-          <!--          <div class="col-4 mt-5 d-flex flex-wrap px-0 align-items-center">-->
-          <!--            <div-->
-          <!--              class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-lg-end justify-content-center justify-content-sm-start flex-wrap py-2">-->
-          <!--              <button type="submit" class="btn-radius btn-blue  py-2 btn fs-16 ff-flexo-bold arrow-after-text">-->
-          <!--                <p class="mx-2 mb-0">contactar</p>-->
-          <!--              </button>-->
-          <!--            </div>-->
-          <!--                        <div class="d-flex d-lg-none col-12 col-sm-7 col-md-7 col-lg-6 justify-content-center justify-content-sm-start  py-2 px-0 pl-3">-->
-          <!--                          <span class="check-list mr-lg-3 mr-3 mr-sm-2"></span>-->
-          <!--                          <h3 class="font-italic ff-bebas fs-18 color-purple mb-0">-->
-          <!--                            Me gustaría recibir novedades a mi correo-->
-          <!--                          </h3>-->
-          <!--                        </div>-->
-          <!--            <span v-show="mailStatus" class="col-12 ff-bebas fs-18 color-purple mt-2">-->
-          <!--                Gracias por ponerte en contacto, nos comunicaremos a la brevedad-->
-          <!--            </span>-->
-          <!--          </div>-->
         </form>
       </ValidationObserver>
     </div>
@@ -127,10 +76,9 @@
         let formD = new FormData();
         formD.append("puesto", this.puesto);
         formD.append("empresa", this.empresa);
-        console.log(this.verForm)
-        if (this.verForm=='version-landing'){
-          alert()
-        }
+        console.log(this.verForm);
+        formD.append("form_type", this.verForm);
+
         // formD.append("namePlayer", this.playerNameOsezno);
         // formD.append("phone", this.phoneOsezno);
         this.msgButton = "Enviando...";

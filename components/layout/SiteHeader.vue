@@ -123,7 +123,15 @@
     ref="menuHeaderRef"
     class="d-relative menu-wrapper"
   >
-    <b-navbar toggleable="lg" type="dark" class="menu-header px-0 container1">
+    <b-navbar toggleable="sm" type="dark" class="menu-header px-0 container1">
+      <nuxt-link to="/" class="text-item brand-icon">
+        <img
+          width="130"
+          src="~assets/img/svg/tnetworks-logo.svg"
+          alt="Oseznos logo header"
+          class="d-lg-none"
+        />
+      </nuxt-link>
       <b-navbar-toggle
         target="nav-collapse"
         @click="menuClick"
@@ -131,31 +139,23 @@
         <menuIicon >
         </menuIicon>
       </b-navbar-toggle>
-      <nuxt-link to="/" class="text-item brand-icon">
-        <img
-          width="80"
-          src="~assets/img/svg/tnetworks-logo.svg"
-          alt="Oseznos logo header"
-          class="d-lg-none"
-        />
-      </nuxt-link>
       <!-- SECTION SHOWED WHEN THE SCREEN IS SMALL, MEDIUM -->
-      <b-navbar-nav
-        class="align-items-center d-none d-sm-flex d-lg-none flex-row"
-      >
-        <b-nav-item to="contact" class="hover-center-underline fs-sm-13 mx-2 mx-sm-2">
-          Habla con nosotros
-        </b-nav-item>
-        <b-nav-item
-          class="trapeze trapeze-purple line-overflow line-overflow-yellow px-sm-4 py-sm-2 fs-sm-13 mx-sm-3 px-md-5 px-lg-0"
-          to="login">
-          Log In
-        </b-nav-item>
-      </b-navbar-nav>
+<!--      <b-navbar-nav-->
+<!--        class="align-items-center d-none d-sm-flex d-lg-none flex-row"-->
+<!--      >-->
+<!--        <b-nav-item to="contact" class="hover-center-underline fs-sm-13 mx-2 mx-sm-2">-->
+<!--          Habla con nosotros-->
+<!--        </b-nav-item>-->
+<!--        <b-nav-item-->
+<!--          class="trapeze trapeze-purple line-overflow line-overflow-yellow px-sm-4 py-sm-2 fs-sm-13 mx-sm-3 px-md-5 px-lg-0"-->
+<!--          to="login">-->
+<!--          Log In-->
+<!--        </b-nav-item>-->
+<!--      </b-navbar-nav>-->
       <b-collapse id="nav-collapse" is-nav class="">
-        <div class="d-flex w-100 flex-wrap  mt-4 mt-lg-0">
+        <div class="d-flex w-100 flex-wrap  mt-4 mt-sm-0">
           <b-navbar-nav
-            class="social-icons col-12 col-md-7 align-items-center d-none d-lg-flex px-2"
+            class="social-icons col-12 col-lg-6 align-items-center d-none d-lg-flex px-2"
           >
             <b-nav-item to="/" class="d-none d-lg-block">
               <img
@@ -167,20 +167,20 @@
           </b-navbar-nav>
           <!-- Right aligned nav items -->
           <b-navbar-nav
-            class="col-12 col-lg-5 justify-content-center align-items-center px-2"
+            class="col-12 col-lg-6 justify-content-end align-items-center px-2"
           >
             <b-nav-item-dropdown text="Servicios" right>
-              <b-dropdown-item href="#">EN</b-dropdown-item>
-              <b-dropdown-item href="#">ES</b-dropdown-item>
-              <b-dropdown-item href="#">RU</b-dropdown-item>
-              <b-dropdown-item href="#">FA</b-dropdown-item>
+              <b-dropdown-item href="#">Servicio 1</b-dropdown-item>
+              <b-dropdown-item href="#">Servicio 2</b-dropdown-item>
+              <b-dropdown-item href="#">Servicio 3</b-dropdown-item>
+              <b-dropdown-item href="#">Servicio 4</b-dropdown-item>
             </b-nav-item-dropdown>
             <b-nav-item to="/" class="hover-center-underline">
-              Inicio
+              Nosotros
             </b-nav-item>
 
             <b-nav-item
-              class="fs-login-on-menu arrow-after-text btn-radius btn-blue p-2"
+              class="fs-login-on-menu arrow-after-text btn-radius btn-blue p-2 ml-sm-3 ml-md-5 ml-lg-4 px-4 px-sm-3 px-lg-2"
               to="/">
               Contáctenos
             </b-nav-item>
@@ -200,25 +200,25 @@
 <!--              Log In-->
 <!--            </b-nav-item>-->
 <!--          </b-navbar-nav>-->
-          <b-navbar-nav
-            class="social-icons col-12 col-lg-2 align-items-center d-flex d-lg-none mt-4 flex-row justify-content-center px-2"
-          >
-            <b-nav-item href="https://www.facebook.com/oseznosmorelia/" target="_blank">
-              <img
-                src="~assets/img/svg/facebook.svg"
-                alt="Facebook Oseznos de Morelia"
-              />
-            </b-nav-item>
-            <b-nav-item href="https://www.instagram.com/oseznosmorelia/" target="_blank">
-              <img
-                src="~assets/img/svg/instagram.svg"
-                alt="Instagram Oseznos de Morelia"
-              />
-            </b-nav-item>
-            <b-nav-item target="_blank" href="https://wa.me/5214433679536?text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Club%20Oseznos">
-              <img src="~assets/img/svg/wap.svg" alt="Whatsapp Oseznos de Morelia" />
-            </b-nav-item>
-          </b-navbar-nav>
+<!--          <b-navbar-nav-->
+<!--            class="social-icons col-12 col-lg-2 align-items-center d-flex d-lg-none mt-4 flex-row justify-content-center px-2"-->
+<!--          >-->
+<!--            <b-nav-item href="https://www.facebook.com/oseznosmorelia/" target="_blank">-->
+<!--              <img-->
+<!--                src="~assets/img/svg/facebook.svg"-->
+<!--                alt="Facebook Oseznos de Morelia"-->
+<!--              />-->
+<!--            </b-nav-item>-->
+<!--            <b-nav-item href="https://www.instagram.com/oseznosmorelia/" target="_blank">-->
+<!--              <img-->
+<!--                src="~assets/img/svg/instagram.svg"-->
+<!--                alt="Instagram Oseznos de Morelia"-->
+<!--              />-->
+<!--            </b-nav-item>-->
+<!--            <b-nav-item target="_blank" href="https://wa.me/5214433679536?text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Club%20Oseznos">-->
+<!--              <img src="~assets/img/svg/wap.svg" alt="Whatsapp Oseznos de Morelia" />-->
+<!--            </b-nav-item>-->
+<!--          </b-navbar-nav>-->
         </div>
       </b-collapse>
     </b-navbar>

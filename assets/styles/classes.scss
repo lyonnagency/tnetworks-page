@@ -1,5 +1,18 @@
 @import "variables.scss";
 @import "mixin.scss";
+body, h2, h3 {
+  //font-size: 13px;
+  ////@include sm {
+  ////  font-size: 12px;
+  ////}
+  //@include md {
+  //  font-size: 14px;
+  //}
+  //
+  //@include lg {
+  //  font-size: 16px;
+  //}
+}
 @import "fonts.scss";
 @import "extention.scss";
 
@@ -105,12 +118,12 @@
   }
 
   .line-up {
-    transform: translate(-16.68px) rotate(45deg);
+    transform: translate(2px ,12px) rotate(45deg);
     transform-origin: center;
   }
 
   .line-down {
-    transform: translate(-7px, -7px) rotate(-45deg);
+    transform: translate(2px, -10px) rotate(-45deg);
     transform-origin: center;
   }
 }
@@ -120,12 +133,12 @@
 }
 
 .line-up {
-  transform: translate(0) rotate(0deg);
+  transform: translate(10px) rotate(0deg);
   transform-origin: center;
 }
 
 .line-down {
-  transform: translate(0) rotate(0deg);
+  transform: translate(10px) rotate(0deg);
   transform-origin: center;
 }
 
@@ -158,12 +171,16 @@
   .menu-header {
     .nav-item {
       a {
-        font-size: $s36;
+        font-size: $s22;
         font-family: "aalto-sans-pro-medium";
         letter-spacing: 0px;
         @include restartLink;
         position: relative;
         line-height: normal;
+
+        @include sm{
+          font-size: $s14;
+        }
         @include md {
           //font-size: calc(0.7 * 36px);
         }
@@ -182,21 +199,23 @@
       }
 
       .nav-link {
-        color: $purple;
+        color: $blueTn;
       }
     }
 
-    .nav-item.fs-login-on-menu {
-      a {
-        font-size: $s24;
-        @include lg {
-          font-size: $s15;
-        }
-      }
-    }
+    //.nav-item.fs-login-on-menu {
+    //  a {
+    //    font-size: $s24;
+    //    @include lg {
+    //      font-size: $s15;
+    //    }
+    //  }
+    //}
 
     .navbar-toggler {
       outline: none;
+      background-color: $blueTn;
+      border-radius: 30px;
 
       .navbar-toggler-icon {
         width: 58px;
@@ -226,16 +245,16 @@
 
 .brand-icon {
   position: relative;
-  left: -50%;
-  transform: translateX(50%);
+  left: 0%;
+  //transform: translateX(-50%);
   @include sm {
     left: 0;
-    transform: translateX(80%);
+    //transform: translateX(80%);
     //transform: translateX(100%);
   }
   @include md {
     //left: -50%;
-    transform: translateX(130%);
+    //transform: translateX(130%);
   }
   @include lg {
     //left: -50%;
@@ -278,14 +297,17 @@
 }
 
 .hero {
-  height: 90vh;
+  height: 110vh;
+  @include sm{
+    height: 90vh;
+  }
   margin-left: 0;
   position: relative;
   left: -1px;
   background-blend-mode: hard-light;
   overflow: hidden;
-  @include sm {
-    height: 450px;
+  @include md {
+    height: 550px;
   }
   @include lg {
     height: 100vh;
@@ -1372,9 +1394,9 @@
 }
 
 .footer-landing {
-  .wp-link {
-    display: none;
-  }
+  //.wp-link {
+  //  display: none;
+  //}
 
   .social-icons-foot {
     justify-content: center !important;

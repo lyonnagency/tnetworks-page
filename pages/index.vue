@@ -2,69 +2,70 @@
   <div class="home overflow-hidden">
     <SiteHeader></SiteHeader>
     <section class="hero ">
-      <div class="d-flex container-hero h-100 position-relative">
+      <div class="d-flex container-hero h-100 position-relative flex-wrap">
         <div class="points-pattern-left"></div>
-        <div class="col-6 d-flex align-items-center flex-wrap">
-          <div class="d-flex flex-wrap mt-5 pt-5">
-            <h2 class="ff-flexo-bold fs-50 w-100 mb-5 pb-4">Mitigue riesgos y <br> favorezca la continuidad <br> de su
+        <div class="col-12 col-sm-6 d-flex align-items-center flex-wrap">
+          <div class="d-flex flex-wrap mt-5 pt-5 mt-sm-0 mt-md-5 pt-md-5 ">
+            <h2 class="ff-flexo-bold fs-50 fs-xs-50 w-100 mb-lg-5 pb-lg-4 mb-4 line-height-1-5 text-blue-tn">Mitigue riesgos y <br> favorezca la continuidad <br> de su
               negocio.</h2>
             <button
-              class="arrow-after-text arrow-after-text-bold btn-radius btn-blue px-4 py-2 btn fs-16 ff-aalto-sans-pro-medium">
+              class="arrow-after-text arrow-after-text-bold btn-radius btn-blue px-4 px-sm-3 py-md-2 btn fs-xs-16 fs-16
+              ff-aalto-sans-pro-medium">
               <p class="mx-2 p-2 mb-0">Contáctenos</p>
             </button>
           </div>
         </div>
-        <div class="col-6 d-flex align-items-center position-relative ml-5">
+        <div class="col-12 col-sm-6 d-flex align-items-sm-center position-relative ml-0 px-0 px-md-3 mt-4 mt-md-4">
           <div class="points-pattern-center"></div>
-          <div class="col-7 px-2">
+          <div class="col-8 pl-0 pr-1 px-md-2 ">
             <img class="img-fluid" src="../assets/img/hero-img-1.jpg" alt="Tnetworks hero 1">
           </div>
-          <div class="col-7 px-2">
+          <div class="col-8 pr-0 pl-1 px-md-2">
             <img class="img-fluid" src="../assets/img/hero-img-2.jpg" alt="Tnetworks hero 1">
           </div>
         </div>
       </div>
     </section>
-    <section class="py-5 bg-blue-tn position-relative">
-      <div class="d-flex py-5 container1 pl-4">
-        <button class="btn-radius btn-gray px-5 py-2 btn fs-16 ff-flexo-bold text-uppercase">
-          <p class="mx-2 p-2 mb-0">Nuestros partners ___</p>
+    <section class="py-1 bg-blue-tn position-relative">
+      <div class="d-flex pb-5 container1 pl-md-4 space-section-top justify-content-center justify-content-md-start">
+        <button class="btn-radius btn-gray px-4 px-sm-5 px-md-4 py-2 btn fs-20 ff-flexo-bold text-uppercase">
+          <p class="mx-2 p-2 px-lg-4 mb-0">Nuestros partners ___</p>
         </button>
       </div>
-      <div class="d-flex py-5 container1 pl-4 mt-4">
-        <div class="col-2">
+      <div class="d-flex pb-3 py-sm-5 container1 pl-sm-4 mt-3 mt-sm-5 flex-wrap">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
           <div class="partner-tn-1"></div>
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
           <div class="partner-tn-2"></div>
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
           <div class="partner-tn-3"></div>
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
           <div class="partner-tn-4"></div>
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
           <div class="partner-tn-5"></div>
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
           <div class="partner-tn-6"></div>
         </div>
       </div>
-      <div class="d-flex py-5 container1 pl-4">
-        <div class="col-6 d-flex pl-0 flex-wrap">
-          <div class="d-flex flex-wrap mt-5 pt-5">
-            <h2 class="ff-flexo-bold fs-45 w-100 mb-5 pb-4 text-white">
-              La transformación digital <br> de su empresa comienza <br> ahora.
+      <div class="d-flex py-5 container1 pl-sm-4 pl-md-0 space-section-bottom flex-wrap">
+        <div class="col-12 col-md-6 d-flex pl-md-0 flex-wrap ">
+          <div class="d-flex flex-wrap mt-md-5 pt-md-5 pr-3 pr-md-0 pr-lg-3">
+            <h2 class="ff-flexo-bold fs-45 w-100 mb-md-5 pb-4 mb-4 text-white">
+              La transformación digital de su empresa comienza <br> ahora.
             </h2>
           </div>
         </div>
-        <div class="col-5 offset-1 position-relative mt-5 pt-5 text-white">
-          <p class="ff-aalto-sans-pro-regular fs-18 mb-4">
+        <div class="col-12 col-md-6 col-lg-5 offset-lg-1 position-relative mt-md-5 pt-md-5 text-white mb-5 mb-md-0">
+          <p class="ff-aalto-sans-pro-regular fs-18 mb-4 ">
             Ofrecemos soluciones tecnológicas flexibles y a la medida para favorecer la alta disponibilidad de las
             aplicaciones críticas de su negocio.
           </p>
-          <p class="ff-aalto-sans-pro-regular fs-18">
+          <p class="ff-aalto-sans-pro-regular fs-18 ">
             Permítanos ofrecerle la mejor estrategia de Digitalización, mediante Aplicaciones, Bases de datos,
             Networking, Backup y Virtualización con la mejor tecnología.
           </p>
@@ -72,168 +73,186 @@
       </div>
       <div class="points-pattern-section2"></div>
     </section>
-    <section class="py-5 bg-gray-tn">
+    <section class="py-5 pt-sm-4 bg-gray-tn">
       <div class="w-100 d-flex justify-content-center space-section-top pb-5">
-        <button class="btn-square btn-blue px-5 py-2 btn fs-16 ff-flexo-bold text-uppercase">
+        <button class="btn-radius btn-blue px-5 py-2 btn fs-16 ff-flexo-bold text-uppercase">
           <p class="mx-2 p-2 mb-0">Industria 4.0 ___</p>
         </button>
       </div>
-      <div class="d-flex container1 mt-5">
-        <div class="col border-radius-30 card-industry py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="40" height="44" src="../assets/img/svg/tn-industria-1.svg" alt="Industria 1">
+      <div class="d-flex container1 mt-5 flex-wrap">
+        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+          <div class="text-center col-5 col-sm-4 col-md-3 px-1">
+            <img class="industry-1" width="40" height="44" src="../assets/img/svg/tn-industria-1.svg" alt="Industria 1">
           </div>
-          <div class="col-9 d-flex ">
-            <h3 class="ff-flexo-bold fs-18 text-blue-tn mb-0 mt-1">Infraestructura de <br> telecomunicaciones</h3>
-          </div>
-        </div>
-        <div class="col border-radius-30 card-industry py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="52" height="41" src="../assets/img/svg/tn-industria-2.svg" alt="Industria 1">
-          </div>
-          <div class="col-9 d-flex ">
-            <h3 class="ff-flexo-bold fs-18 text-blue-tn mb-0 mt-1">Almacenamiento <br> All Flash</h3>
+          <div class="col-7 col-sm-9 d-flex ">
+            <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Infraestructura de <br> telecomunicaciones</h3>
           </div>
         </div>
-        <div class="col border-radius-30 card-industry py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="49" height="49" src="../assets/img/svg/tn-industria-3.svg" alt="Industria 1">
+        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+          <div class="text-center col-5 col-sm-4 col-md-3 px-1">
+            <img class="industry-2" width="52" height="41" src="../assets/img/svg/tn-industria-2.svg" alt="Industria 1">
           </div>
-          <div class="col-9 d-flex ">
-            <h3 class="ff-flexo-bold fs-18 text-blue-tn mb-0 mt-1">Procesamiento <br> de datos</h3>
+          <div class="col-7 col-sm-9 d-flex ">
+            <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Almacenamiento <br> All Flash</h3>
           </div>
         </div>
-        <div class="col border-radius-30 card-industry py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="58" height="51" src="../assets/img/svg/tn-industria-4.svg" alt="Industria 1">
+        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+          <div class="text-center col-5 col-sm-4 col-md-3 px-1">
+            <img class="industry-3" width="49" height="49" src="../assets/img/svg/tn-industria-3.svg" alt="Industria 1">
           </div>
-          <div class="col-9 d-flex ">
-            <h3 class="ff-flexo-bold fs-18 text-blue-tn mb-0 mt-1">Centro de <br> datos.</h3>
+          <div class="col-7 col-sm-9 d-flex ">
+            <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Procesamiento <br> de datos</h3>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+          <div class="text-center col-5 col-sm-4 col-md-3 px-1">
+            <img class="industry-4" width="58" height="51" src="../assets/img/svg/tn-industria-4.svg" alt="Industria 1">
+          </div>
+          <div class="col-7 col-sm-9 d-flex ">
+            <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Centro de <br> datos.</h3>
+          </div>
+        </div>
+
+        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+          <div class="text-center col-5 col-sm-4 col-md-3 px-1">
+            <img class="industry-5" width="51" height="54" src="../assets/img/svg/tn-industria-5.svg" alt="Industria 1">
+          </div>
+          <div class="col-7 col-sm-9 d-flex ">
+            <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Convergencia e <br> Hiperconvergencia</h3>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+          <div class="text-center col-5 col-sm-4 col-md-3 px-1">
+            <img class="industry-6" width="52" height="53" src="../assets/img/svg/tn-industria-6.svg" alt="Industria 1">
+          </div>
+          <div class="col-7 col-sm-9 d-flex ">
+            <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Alta <br> disponibilidad</h3>
+          </div>
+        </div>
+
+
+        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+          <div class="text-center col-5 col-sm-4 col-md-3 px-1">
+            <img class="industry-7" width="51" height="49" src="../assets/img/svg/tn-industria-7.svg" alt="Industria 1">
+          </div>
+          <div class="col-7 col-sm-9 d-flex ">
+            <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Seguridad de <br> la información</h3>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+          <div class="text-center col-5 col-sm-4 col-md-3 px-1">
+            <img class="industry-8" width="55" height="45 " src="../assets/img/svg/tn-industria-8.svg" alt="Industria 1">
+          </div>
+          <div class="col-7 col-sm-9 d-flex ">
+            <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Virtualización</h3>
           </div>
         </div>
       </div>
-      <div class="d-flex container1 mt-2 space-section-bottom">
-        <div class="col border-radius-30 card-industry py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="51" height="54" src="../assets/img/svg/tn-industria-5.svg" alt="Industria 1">
-          </div>
-          <div class="col-9 d-flex ">
-            <h3 class="ff-flexo-bold fs-18 text-blue-tn mb-0 mt-1">Convergencia e <br> Hiperconvergencia</h3>
-          </div>
-        </div>
-        <div class="col border-radius-30 card-industry py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="52" height="53" src="../assets/img/svg/tn-industria-6.svg" alt="Industria 1">
-          </div>
-          <div class="col-9 d-flex ">
-            <h3 class="ff-flexo-bold fs-18 text-blue-tn mb-0 mt-1">Alta <br> disponibilidad</h3>
-          </div>
-        </div>
-        <div class="col border-radius-30 card-industry py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="51" height="49" src="../assets/img/svg/tn-industria-7.svg" alt="Industria 1">
-          </div>
-          <div class="col-9 d-flex ">
-            <h3 class="ff-flexo-bold fs-18 text-blue-tn mb-0 mt-1">Seguridad de <br> la información</h3>
-          </div>
-        </div>
-        <div class="col border-radius-30 card-industry py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="55" height="45 " src="../assets/img/svg/tn-industria-8.svg" alt="Industria 1">
-          </div>
-          <div class="col-9 d-flex ">
-            <h3 class="ff-flexo-bold fs-18 text-blue-tn mb-0 mt-1">Virtualización</h3>
-          </div>
-        </div>
+      <div class="d-flex container1 mt-2 space-section-bottom flex-wrap">
+
+
+
       </div>
     </section>
-    <section class="py-5">
-      <div class="d-flex container5 py-5 my-5 align-items-center ">
-        <div class="col-5 pr-5">
-          <h3 class="ff-flexo-bold fs-24 text-blue-tn text-uppercase mb-4">Digitalización __</h3>
-          <h2 class="ff-flexo-bold fs-50 w-100 mb-5">Menos riesgos, <br>
+    <section class="py-md-5">
+
+      <div class="d-flex container5 py-sm-0 my-md-5 pt-4 mt-5 pb-lg-5 align-items-center flex-wrap">
+        <div class="col-12 col-sm-6 col-md-5 col-lg-4 pr-5 pr-sm-4 pr-lg-0">
+          <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">Digitalización_</h3>
+          <h2 class="ff-flexo-bold fs-50 w-100 mb-5 text-blue-tn">Menos riesgos,
             más continuidad.</h2>
-          <p class="ff-aalto-sans-pro-regular fs-18 mb-4">
+          <p class="ff-aalto-sans-pro-regular fs-18 mb-5 mr-sm-5 mr-md-0">
             Reduzca gastos de TI aumentando la eficiencia y la agilidad de su empresa con virtualización. Obtenga una
             mayor movilidad de cargas de trabajo, aumento del rendimiento y disponibilidad de los recursos automatizando
             sus operaciones en máquinas virtuales.
           </p>
         </div>
-        <div class="col-7 pr-5 pl-0">
-          <div class="img-side-container side-right">
+        <div class="col-sm-6 col-md-7 col-lg-6 col-12 offset-lg-1 pr-sm-4 pr-md-5 pr-5 pl-sm-0 pl-md-4">
+          <div class="img-side-container side-right ">
             <img class="img-fluid" src="../assets/img/tn-side-img-1-.jpg"
                  alt="Menos riesgo, más continuidad - tnetworks">
           </div>
         </div>
       </div>
 
-      <div class="d-flex container6 py-5 my-5 align-items-center">
-        <div class="col-7 pl-5 pl-0 mr-4">
-          <div class="img-side-container side-left">
+      <div class="d-flex container6 py-sm-0 my-md-5 py-lg-5 my-lg-5 mt-5 pt-5 align-items-center flex-wrap-reverse">
+        <div class="col-12 col-sm-7 col-md-7 pl-lg-5 pl-0">
+          <div class="img-side-container side-left pl-5 pl-lg-5">
             <img class="img-fluid" src="../assets/img/tn-side-img-2.jpg"
                  alt="Menos riesgo, más continuidad - tnetworks">
           </div>
         </div>
-        <div class="col-5 pl-5">
-          <h3 class="ff-flexo-bold fs-24 text-blue-tn text-uppercase mb-4">INDUSTRIA 4.0_</h3>
-          <h2 class="ff-flexo-bold fs-50 w-100 mb-5">Revolución <br>
+        <div class="col-12 col-sm-5 col-md-5 col-lg-4 pl-5 pl-md-4 offset-lg-1">
+          <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">INDUSTRIA 4.0_</h3>
+          <h2 class="ff-flexo-bold fs-50 w-100 mb-5 text-blue-tn">Revolución <br>
             tecnológica.</h2>
-          <p class="ff-aalto-sans-pro-regular fs-18 mb-4">
+          <p class="ff-aalto-sans-pro-regular fs-18 mb-5">
             Favorezca la continuidad de sus operaciones integrando unidades de negocio, personas y activos mediante
             tecnologías inteligentes. La industria 4.0 beneficia la agilidad y seguridad de la información.
           </p>
         </div>
       </div>
 
-      <div class="d-flex container5 py-5 my-5 align-items-center">
-        <div class="col-5 pr-5">
-          <h3 class="ff-flexo-bold fs-24 text-blue-tn text-uppercase mb-4">DATA CENTER_</h3>
-          <h2 class="ff-flexo-bold fs-50 w-100 mb-5">Sin <br>
+      <div class="d-flex container5 py-5 my-5 py-sm-0 my-sm-0 py-md-5 py-md-5 align-items-center flex-wrap">
+        <div class="col-12 col-sm-6 col-md-5 col-lg-4 pr-5 pr-sm-4 pr-lg-0">
+          <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">DATA CENTER_</h3>
+          <h2 class="ff-flexo-bold fs-50 w-100 mb-5 text-blue-tn">Sin <br>
             límites.</h2>
-          <p class="ff-aalto-sans-pro-regular fs-18 mb-4">
+          <p class="ff-aalto-sans-pro-regular fs-18 mb-5">
             Mejore los tiempos de respuesta y agilidad de sus centros de datos con soluciones de administración siempre
             activas, rápidas y fáciles de gestionar, mejorando la experiencia de sus clientes.
           </p>
         </div>
-        <div class="col-7 pr-5 pl-0">
+        <div class="col-sm-6 col-md-7 col-lg-6 col-12 offset-lg-1 pr-sm-4 pr-md-5 pr-5 pl-sm-0 pl-md-4">
           <div class="img-side-container side-right">
             <img class="img-fluid" src="../assets/img/tn-side-img-3.jpg"
                  alt="Menos riesgo, más continuidad - tnetworks">
           </div>
         </div>
       </div>
+
     </section>
-    <section class="py-5 container2">
-      <div class="py-5">
-        <h2 class="ff-flexo-bold fs-20 text-blue-tn text-uppercase mb-5 ">Confían en nosotros _</h2>
-        <div class="d-flex pt-5">
-          <div class="col d-flex align-items-center justify-content-center">
-            <img class="img-fluid mt-4" width="209" height="37" src="../assets/img/svg/tn-customer-1.svg" alt="Hutchison ports">
+    <section class="py-lg-5 pb-md-5 container2">
+      <div class="py-5 my-4 pt-md-0 mt-md-0 py-lg-5 my-lg-4">
+        <h2 class="ff-flexo-bold fs-20 text-blue-tn text-uppercase mb-md-5 text-center text-md-left">Confían en nosotros __</h2>
+        <div class="d-flex flex-wrap pt-5">
+          <div class="col-6 col-sm-3 col-lg-2 my-4 my-0 col-sm d-flex align-items-lg-center align-items-end justify-content-center">
+            <img class="img-fluid mt-4 custommer-1" src="../assets/img/svg/tn-customer-1.svg" alt="Hutchison ports">
+<!--            <img class="img-fluid mt-4 " width="209" height="37" src="../assets/img/svg/tn-customer-1.svg" alt="Hutchison ports">-->
           </div>
-          <div class="col d-flex align-items-center justify-content-center">
-            <img class="img-fluid mb-3" width="124" height="51" src="../assets/img/svg/tn-customer-2.svg" alt="ArcelorMittal">
+          <div class="col-6 col-sm-3 col-lg-2 my-4 my-0 col-sm d-flex align-items-lg-center align-items-end justify-content-center">
+            <img class="img-fluid mb-3 custommer-2" src="../assets/img/svg/tn-customer-2.svg" alt="ArcelorMittal">
+<!--            <img class="img-fluid mb-3 " width="124" height="51" src="../assets/img/svg/tn-customer-2.svg" alt="ArcelorMittal">-->
           </div>
-          <div class="col d-flex align-items-center justify-content-center">
-            <img class="img-fluid" width="202" height="48" src="../assets/img/svg/tn-customer-3.svg" alt="APM terminals">
+          <div class="col-6 col-sm-3 col-lg-2 my-4 my-0 col-sm d-flex align-items-lg-center align-items-end justify-content-center">
+            <img class="img-fluid  custommer-3" src="../assets/img/svg/tn-customer-3.svg" alt="APM terminals">
+<!--            <img class="img-fluid " width="202" height="48" src="../assets/img/svg/tn-customer-3.svg" alt="APM terminals">-->
           </div>
-          <div class="col d-flex align-items-center justify-content-center">
-            <img class="img-fluid mt-4" width="131" height="52" src="../assets/img/svg/tn-customer-4.svg" alt="Finamex - casa de bolsa">
+          <div class="col-6 col-sm-3 col-lg-2 my-4 my-0 col-sm d-flex align-items-lg-center align-items-end justify-content-center">
+            <img class="img-fluid mt-4 custommer-4" src="../assets/img/svg/tn-customer-4.svg" alt="Finamex - casa de bolsa">
+<!--            <img class="img-fluid mt-4"  width="131" height="52" src="../assets/img/svg/tn-customer-4.svg" alt="Finamex - casa de bolsa">-->
           </div>
-          <div class="col d-flex align-items-center justify-content-center">
-            <img class="img-fluid" width="94" height="81" src="../assets/img/svg/tn-customer-5.svg" alt="Nissan">
+          <div class="col-6 col-sm-3 col-lg-2 my-4 my-0 col-sm d-flex align-items-lg-center align-items-end justify-content-center">
+            <img class="img-fluid custommer-5" src="../assets/img/svg/tn-customer-5.svg" alt="Nissan">
+<!--            <img class="img-fluid" width="94" height="81" src="../assets/img/svg/tn-customer-5.svg" alt="Nissan">-->
           </div>
-          <div class="col d-flex align-items-center justify-content-center">
-            <img class="img-fluid mt-2" width="175" height="32" src="../assets/img/svg/tn-customer-6.svg" alt="Continental">
+          <div class="col-6 col-sm-3 col-lg-2 my-4 my-0 col-sm d-flex align-items-lg-center align-items-end justify-content-center">
+            <img class="img-fluid mt-2 custommer-6" src="../assets/img/svg/tn-customer-6.svg" alt="Continental">
+<!--            <img class="img-fluid mt-2 " width="175" height="32" src="../assets/img/svg/tn-customer-6.svg" alt="Continental">-->
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2 my-4 my-0 col-sm d-flex align-items-lg-center align-items-end justify-content-center justify-content-lg-start">
+            <img class="img-fluid mt-2 custommer-7" src="../assets/img/svg/tn-customer-7.svg" alt="Continental">
+<!--            <img class="img-fluid mt-2 " width="100" height="32" src="../assets/img/svg/tn-customer-7.svg" alt="Continental">-->
           </div>
         </div>
       </div>
     </section>
     <section class="py-5 bg-gray-tn">
-      <div class="d-flex container2 py-5">
-        <div class="col-4">
+      <div class="d-flex container2 py-5 flex-wrap">
+        <div class="col-12 col-sm-4 text-center">
           <img class="img-fluid avatar-contact" src="../assets/img/tn-fer-avatar.png" alt="Fernanda Peña">
         </div>
-        <div class="col-8 d-flex align-items-center justify-content-end">
+        <div class="col-12 col-sm-7 offset-sm-1 d-flex align-items-center justify-content-end px-0 mt-4 mt-sm-0">
               <FormInscription></FormInscription>
         </div>
       </div>

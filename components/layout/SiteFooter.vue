@@ -1,11 +1,12 @@
 <template>
   <footer class="py-5">
-    <div class="container3 py-4">
+    <div class="container3 pt-4 py-lg-5">
       <div class="d-flex flex-wrap">
-        <div class="col-sm-7 col-md-4 col-lg-2 pr-lg-5 pr-md-5 px-sm-0 pr-sm-5 my-4 d-flex justify-content-center">
+        <div class="col-sm-3 col-md-2 col-lg-2 pr-lg-5 pr-lg-5 px-sm-0 my-4 d-flex justify-content-center">
           <img class="logo-tn-footer" src="~assets/img/svg/tnetworks-logo-footer.svg" alt="Logo Oseznos de Morelia"/>
         </div>
-        <div class="d-flex align-items-center col-sm-6 col-md-5 col-lg-3 my-4 pr-md-4 px-4  flex-wrap">
+        <div class="d-flex align-items-end col-sm-4 col-md-5 col-lg-3 px-sm-2 my-4 pr-md-4 px-4 flex-wrap
+        justify-content-center justify-content-sm-start pl-md-5">
           <div class="">
             <p class="ff-aalto-sans-pro-medium fs-16 mb-0 text-blue-tn w-100">
               m: hola@tnetworks.com.mx
@@ -16,32 +17,34 @@
           </div>
         </div>
         <div
-          class="col-12 col-sm-6 col-md-4 col-lg-2  d-flex mt-5 mt-lg-0 justify-content-between align-items-center px-5 pl-sm-0 pl-lg-5 pr-sm-5 pr-lg-1 my-lg-4">
-          <a href="#" target="_blank" class="faceb">
+          class="
+          d-flex align-items-end col-sm-3 offset-sm-1 offset-md-0 justify-content-end justify-content-center justify-content-sm-around pb-2 col-md-5
+          col-lg-2 my-4 pr-lg-0 pl-lg-0 px-3 pl-md-5  flex-wrap border-left-black">
+          <a href="#" target="_blank" class="faceb mx-4 mx-sm-0">
             <img
               src="~assets/img/svg/facebook.svg"
               alt="Facebook Tnetworks de Morelia"
-
             />
           </a>
-          <a href="#" target="_blank" class="insta">
+          <a href="#" target="_blank" class="insta mx-4 mx-sm-0">
             <img
               src="~assets/img/svg/instagram.svg"
               alt="Instagram Oseznos de Morelia"
             />
           </a>
-          <!--        <a href="#">-->
-          <!--          <img src="~assets/img/svg/twitter.svg" alt="Twitter Oseznos de Morelia"/>-->
-          <!--        </a>-->
-          <a class="wp-link whats" target="_blank"
+          <a class="wp-link whats mx-4 mx-sm-0" target="_blank"
              href="https://wa.me/5214433679536?">
             <img
-                 src="~assets/img/svg/wap-fill.svg"
+                 src="~assets/img/svg/linkedin.svg"
                  alt="Whatsapp Oseznos de Morelia"/>
           </a>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-5 d-flex justify-content-center justify-content-md-end my-4 px-md-0 align-items-center">
-          <a href="https://lyonn.co/" target="_blank" class="mx-2 ml-md-0 ml-lg-2">
+        <div class="col-md-6 col-md-12 col-lg-3 offset-lg-2 d-flex justify-content-center justify-content-md-end mt-5 pt-5 mt-lg-0
+        pr-md-4 align-items-end mb-lg-4 pb-lg-2">
+          <a href="#" class="mx-2">
+            <img width="25" src="~assets/img/svg/merkafy.svg" alt="Lyonn Agency" class="mr-2"/>
+          </a>
+          <a href="https://lyonn.co/" target="_blank" class="mx-2 ml-md-0 ml-lg-2 mr-md-4">
             <img width="30" src="~assets/img/svg/sponsor-lyonn.svg" alt="Lyonn Agency" class="mr-2"/>
             <span class="text-blue-tn ff-galano-grotesque-medium fs-11">From Lyonn with love</span>
           </a>

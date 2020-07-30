@@ -1,7 +1,7 @@
 <template>
   <div class="landing-page overflow-hidden">
     <!--    MENU    -->
-    <div class="menu-landing-page w-100 pt-5 ">
+    <div class="menu-landing-page w-100 pt-3 pt-lg-5 ">
       <div class="d-flex justify-content-end align-items-center w-100 menu-container menu-wrapper">
 
         <b-navbar-nav
@@ -11,13 +11,13 @@
             <img
               src="~assets/img/svg/tnetworks-logo-white.svg"
               alt="Oseznos logo header"
-              class=""
+              class="logo-header-landing"
               width="155"
               height="49"
             />
           </nuxt-link>
           <b-nav-item
-            class="fs-login-on-menu arrow-after-text btn-bordered-white px-3 py-2"
+            class="fs-login-on-menu arrow-after-text btn-bordered-white px-lg-3 px-2 py-1 py-lg-2 fs-16"
             to="/">
             Contáctenos
           </b-nav-item>
@@ -27,28 +27,29 @@
 
     <!--  HERO IMAGE  -->
     <section class="hero hero-landing d-flex align-items-center">
-      <div class="d-flex container1 h-100 position-relative">
-        <div class="col-6 d-flex align-items-center flex-wrap">
-          <div class="d-flex flex-wrap mt-5 pt-5">
-            <h2 class="ff-flexo-bold fs-72 w-100 mb-5 pb-4 text-white">
+      <div class="d-flex flex-wrap container1 h-100 position-relative">
+        <div class="col-12 col-lg-6 d-flex align-items-end mt-5 mt-lg-0 align-items-lg-center flex-wrap">
+          <div class="d-flex flex-wrap mt-lg-5 pt-lg-5">
+            <h2 class="ff-flexo-bold fs-72 w-100 mb-lg-5 pb-lg-4 text-white">
               Almacenamiento <br> All-Flash.
             </h2>
-            <p class="ff-aalto-sans-pro-medium fs-18 text-white">
+            <p class="ff-aalto-sans-pro-medium fs-18 text-white d-none d-lg-block">
               Pure Storage® rediseña la arquitectura de almacenamiento en un modelo <strong>Evergreen™</strong> que
               habilita aplicaciones
               de última generación eliminando las costosas actualizaciones y disminuyendo los tiempos de espera.
             </p>
             <button
-              class="arrow-after-text arrow-after-text-bold btn-radius btn-bordered-bottom-white px-0 py-2 mt-4 btn fs-16 ff-aalto-sans-pro-medium">
+              class="arrow-after-text arrow-after-text-bold btn-radius btn-bordered-bottom-white px-0 py-2 mt-lg-4 btn
+              fs-16 ff-aalto-sans-pro-medium">
               <p class="mx-0 mb-0">Contáctenos</p>
             </button>
           </div>
         </div>
-        <div class="col-6 d-flex flex-wrap justify-content-end align-items-center position-relative ml-5">
-          <div class="d-flex flex-wrap justify-content-end mt-5 pt-5">
-            <div class="item-hero d-flex col-10 align-items-center pb-4">
+        <div class="col-12 col-lg-6 d-flex flex-wrap justify-content-end align-items-center position-relative ml-lg-5 px-0 px-lg-3">
+          <div class="d-flex flex-wrap justify-content-lg-end mt-lg-5 pt-lg-5">
+            <div class="item-hero d-flex col-lg-10 align-items-center pb-4 px-0 px-lg-3">
               <div class="col-5 d-flex justify-content-center mr-3">
-                <img width="127" height="127" src="../assets/img/svg/tn-landing-hero-1.svg" alt="">
+                <img class="icon-hero-landing" width="127" height="127" src="../assets/img/svg/tn-landing-hero-1.svg" alt="">
               </div>
               <div class="col-5 d-flex justify-content-center mr-3">
                 <p class="ff-aalto-pans-pro-semiboldIt text-white">
@@ -56,9 +57,9 @@
                 </p>
               </div>
             </div>
-            <div class="item-hero d-flex col-10 align-items-center pb-4">
+            <div class="item-hero d-flex col-lg-10 align-items-center pb-4 px-0 px-lg-3">
               <div class="col-5 d-flex justify-content-center mr-3">
-                <img width="127" height="127" src="../assets/img/svg/tn-landing-hero-2.svg" alt="">
+                <img class="icon-hero-landing" width="127" height="127" src="../assets/img/svg/tn-landing-hero-2.svg" alt="">
               </div>
               <div class="col-5">
                 <p class="ff-aalto-pans-pro-semiboldIt text-white">
@@ -66,9 +67,9 @@
                 </p>
               </div>
             </div>
-            <div class="item-hero d-flex col-10 align-items-center">
+            <div class="item-hero d-flex col-lg-10 align-items-center px-0 px-lg-3">
               <div class="col-5 d-flex justify-content-center mr-3">
-                <img width="127" height="127" src="../assets/img/svg/tn-landing-hero-3.svg" alt="">
+                <img class="icon-hero-landing" width="127" height="127" src="../assets/img/svg/tn-landing-hero-3.svg" alt="">
               </div>
               <div class="col-5">
                 <p class="ff-aalto-pans-pro-semiboldIt text-white">
@@ -81,9 +82,9 @@
         </div>
       </div>
     </section>
-    <section class="py-5">
-      <div class="d-flex container1 py-5 my-5 align-items-center ">
-        <div class="col-5 pr-5">
+    <section class="space-section-top space-section-bottom">
+      <div class="d-flex flex-wrap container1 align-items-center">
+        <div class="col-12 col-lg-5 pr-lg-5">
           <h3 class="ff-flexo-bold fs-20 text-orange-tn text-uppercase mb-4">TECNOLOGÍA FLASHBLADE ™</h3>
           <h2 class="ff-flexo-bold fs-50 w-100 mb-5">La solución más <br> avanzada de la <br> industria.</h2>
           <p class="ff-aalto-sans-pro-regular fs-18 mb-4">
@@ -91,7 +92,7 @@
             exigentes de datos modernos.
           </p>
         </div>
-        <div class="col-6 offset-1 pr-5 pl-0">
+        <div class="col-12 col-lg-6 offset-lg-1 pr-lg-5 pl-0">
           <div class="img-side-container side-1">
             <img class="img-fluid" src="../assets/img/landing-img-1.png"
                  alt="Menos riesgo, más continuidad - tnetworks">
@@ -99,14 +100,14 @@
         </div>
       </div>
 
-      <div class="d-flex container1 py-5 my-5 align-items-center">
-        <div class="col-5 pl-5 pl-0 mr-4">
+      <div class="d-flex flex-wrap-reverse container1 py-5 my-5 align-items-center">
+        <div class="col-lg-5 pl-lg-5 pl-0 mr-4">
           <div class="img-side-container side-2">
             <img class="img-fluid" src="../assets/img/landing-img-2.png"
                  alt="Menos riesgo, más continuidad - tnetworks">
           </div>
         </div>
-        <div class="col-6 offset-1 ">
+        <div class="col-lg-6 offset-lg-1 ">
           <h3 class="ff-flexo-bold fs-20 text-orange-tn text-uppercase mb-4">TECNOLOGÍA PURE 1 ™</h3>
           <h2 class="ff-flexo-bold fs-50 w-100 mb-5">Inteligencia <br> predictiva.</h2>
           <p class="ff-aalto-sans-pro-regular fs-18 mb-4">
@@ -116,60 +117,61 @@
         </div>
       </div>
 
-      <div class="d-flex container1 py-5 my-5 align-items-center">
-        <div class="col-5 pr-5">
+      <div class="d-flex flex-wrap container1 pt-5 mt-5 align-items-center">
+        <div class="col-lg-5 pr-lg-5">
           <h3 class="ff-flexo-bold fs-20 text-orange-tn text-uppercase mb-4">EVERGREEN STORAGE ™</h3>
           <h2 class="ff-flexo-bold fs-50 w-100 mb-5">Sin costosas <br> actualizaciones.</h2>
           <p class="ff-aalto-sans-pro-regular fs-18 mb-4">
             Evergreen™ Storage ofrece actualizaciones y expansiones rápidas, sin inconvenientes y sin interrupciones
           </p>
         </div>
-        <div class="col-6 offset-1 pr-5 pl-0">
+        <div class="col-lg-6 offset-1 pr-5 pl-0">
           <div class="img-side-container side-3">
             <img class="img-fluid" src="../assets/img/landing-img-3.png"
                  alt="Menos riesgo, más continuidad - tnetworks">
           </div>
         </div>
       </div>
+
     </section>
-    <section class="py-5 bg-gray-tn-land">
-      <div class="d-flex container1 mt-5 space-section-bottom">
-        <div class="col border-radius-10 bg-white mx-3 py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="40" height="44" src="../assets/img/svg/tn-check-landing.svg" alt="Industria 1">
+    <section class="bg-gray-tn-land pt-5">
+      <div class="d-flex flex-wrap container1 mt-5 py-5 space-section-bottom justify-content-center">
+        <div class="col-10 my-2 my-lg-0 col-lg border-radius-10 bg-white mx-3 py-5 px-lg-5 mx-0 d-flex flex-wrap justify-content-lg-center">
+          <div class="col-4 px-1">
+            <img width="72" height="72" class="check-land" src="../assets/img/svg/tn-check-landing.svg" alt="Industria 1">
           </div>
-          <div class="col-9 d-flex ">
+          <div class="col-10 col-lg-8 d-flex mt-3 mt-lg-0">
             <h3 class="ff-aalto-sans-pro-medium fs-18  mb-0 mt-1">
-              Actualizaciones de controlador incluidas cada 3 años.
+              Actualizaciones de  controlador incluidas cada  3 años.
             </h3>
           </div>
         </div>
-        <div class="col border-radius-10 bg-white mx-3 py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="52" height="41" src="../assets/img/svg/tn-check-landing.svg" alt="Industria 1">
+        <div class="col-10 my-2 my-lg-0 col-lg border-radius-10 bg-white mx-3 py-5 px-lg-5 mx-0 d-flex flex-wrap justify-content-lg-center">
+          <div class="col-4 px-1">
+            <img width="72" height="72" class="check-land" src="../assets/img/svg/tn-check-landing.svg" alt="Industria 1">
           </div>
-          <div class="col-9 d-flex ">
+          <div class="col-10 col-lg-8 d-flex mt-3 mt-lg-0">
             <h3 class="ff-aalto-sans-pro-medium fs-18  mb-0 mt-1">
               Reducción de necesidad de recursos de gestión de almacenamiento.
             </h3>
           </div>
         </div>
-        <div class="col border-radius-10 bg-white mx-3 py-5 px-4 mx-0 d-flex justify-content-center">
-          <div class="col-3 px-1">
-            <img width="49" height="49" src="../assets/img/svg/tn-check-landing.svg" alt="Industria 1">
+        <div class="col-10 my-2 my-lg-0 col-lg border-radius-10 bg-white mx-3 py-5 px-lg-5 mx-0 d-flex flex-wrap justify-content-lg-center">
+          <div class="col-4 px-1">
+            <img width="72" height="72" class="check-land" src="../assets/img/svg/tn-check-landing.svg" alt="Industria 1">
           </div>
-          <div class="col-9 d-flex ">
+          <div class="col-10 col-lg-8 d-flex mt-3 mt-lg-0">
             <h3 class="ff-aalto-sans-pro-medium fs-18  mb-0 mt-1">
               Cero inversiones desperdiciadas
             </h3>
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-center flex-wrap">
-        <div class="col-6 d-flex justify-content-center flex-wrap">
+      <div class="d-flex justify-content-center flex-wrap ">
+        <div class="col-10 col-lg-6 d-flex justify-content-center flex-wrap space-section-bottom">
           <img src="../assets/img/svg/tn-purestarage.svg" alt="Purestaorage" width="222" height="39">
           <div class="w-100 d-flex justify-content-center py-4">
-            <h2 class="ff-flexo-bold fs-50">Continuidad a su negocio</h2>
+            <h2 class="ff-flexo-bold fs-50 text-center text-lg-left">Continuidad a su negocio</h2>
           </div>
           <div class="w-100 d-flex justify-content-center">
             <p class="ff-aalto-sans-pro-regular fs-18 text-center">
@@ -181,22 +183,22 @@
       </div>
     </section>
 
-    <section class="py-5 bg-cta-landing d-flex justify-content-center">
-      <div class="col-7 d-flex py-5 flex-wrap">
+    <section class="pb-5 bg-cta-landing d-flex justify-content-center">
+      <div class="col-12 col-lg-7 d-flex flex-wrap space-section-top pb-5 mb-5">
         <div class="w-100">
           <h2 class="ff-flexo-bold fs-45 text-white text-center">
             Obtenga su almacenamiento All-Flash con Pure Storage®
           </h2>
         </div>
         <div class="w-100 d-flex justify-content-center">
-          <button class="btn-bordered-white-thin text-white py-3 px-5 mt-5 ff-flexo-regular fs-30">
+          <button class="btn-bordered-white-thin text-white py-3 px-2 px-lg-5 mt-5 ff-flexo-regular fs-30">
             Desde <strong>$2,500 USD</strong> / mes
           </button>
         </div>
       </div>
     </section>
-    <section class="container1 py-5">
-      <div class="text-center py-5 my-5">
+    <section class="container-95 py-5">
+      <div class="text-center py-5 mt-5 mb-3">
         <h2 class="ff-flexo-bold fs-35">Nuestros clientes opinan:</h2>
       </div>
       <div>
@@ -211,11 +213,11 @@
             <div class="d-flex justify-content-center">
               <div class="inner-slider col-5 px-4">
                 <img src="../assets/img/svg/tn-nissan-opinion.svg" alt="" width="75">
-                <p class="ff-aalto-sans-pro-regular fs-24 text-black my-4">
+                <p class="ff-aalto-sans-pro-regular fs-24 text-black my-4 py-2">
                   "Solo la solución que nos ofreció TNetworks puede
                   cumplir con el rendimiento que necesitamos”.</p>
-                <p class="ff-aalto-pans-pro-semiboldIt fs-18 text-black mb-0">Vladimir Putin</p>
-                <p class="ff-aalto-pans-pro-semiboldIt fs-18 text-orange-tn">Director Comercial</p>
+                <p class="ff-aalto-sans-pro-semibold fs-18 text-black mb-0">Vladimir Putin</p>
+                <p class="ff-aalto-sans-pro-semibold fs-18 text-orange-tn">Director Comercial</p>
               </div>
             </div>
           </b-carousel-slide>
@@ -223,11 +225,11 @@
             <div class="d-flex justify-content-center">
               <div class="inner-slider col-5 px-4">
                 <img src="../assets/img/svg/tn-nissan-opinion.svg" alt="" width="75">
-                <p class="ff-aalto-sans-pro-regular fs-24 text-black my-4">
+                <p class="ff-aalto-sans-pro-regular fs-24 text-black my-4 py-2">
                   "Solo la solución que nos ofreció TNetworks puede
                   cumplir con el rendimiento que necesitamos”.</p>
-                <p class="ff-aalto-pans-pro-semiboldIt fs-18 text-black mb-0">Vladimir Putin</p>
-                <p class="ff-aalto-pans-pro-semiboldIt fs-18 text-orange-tn">Director Comercial</p>
+                <p class="ff-aalto-sans-pro-semibold fs-18 text-black mb-0">Vladimir Putin</p>
+                <p class="ff-aalto-sans-pro-semibold fs-18 text-orange-tn">Director Comercial</p>
               </div>
             </div>
           </b-carousel-slide>
@@ -235,11 +237,23 @@
             <div class="d-flex justify-content-center">
               <div class="inner-slider col-5 px-4">
                 <img src="../assets/img/svg/tn-nissan-opinion.svg" alt="" width="75">
-                <p class="ff-aalto-sans-pro-regular fs-24 text-black my-4">
+                <p class="ff-aalto-sans-pro-regular fs-24 text-black my-4 py-2">
                   "Solo la solución que nos ofreció TNetworks puede
                   cumplir con el rendimiento que necesitamos”.</p>
-                <p class="ff-aalto-pans-pro-semiboldIt fs-18 text-black mb-0">Vladimir Putin</p>
-                <p class="ff-aalto-pans-pro-semiboldIt fs-18 text-orange-tn">Director Comercial</p>
+                <p class="ff-aalto-sans-pro-semibold fs-18 text-black mb-0">Vladimir Putin</p>
+                <p class="ff-aalto-sans-pro-semibold fs-18 text-orange-tn">Director Comercial</p>
+              </div>
+            </div>
+          </b-carousel-slide>
+          <b-carousel-slide>
+            <div class="d-flex justify-content-center">
+              <div class="inner-slider col-5 px-4">
+                <img src="../assets/img/svg/tn-nissan-opinion.svg" alt="" width="75">
+                <p class="ff-aalto-sans-pro-regular fs-24 text-black my-4 py-2">
+                  "Solo la solución que nos ofreció TNetworks puede
+                  cumplir con el rendimiento que necesitamos”.</p>
+                <p class="ff-aalto-sans-pro-semibold fs-18 text-black mb-0">Vladimir Putin</p>
+                <p class="ff-aalto-sans-pro-semibold fs-18 text-orange-tn">Director Comercial</p>
               </div>
             </div>
           </b-carousel-slide>
@@ -251,8 +265,8 @@
         <div class="col-4">
           <img class="img-fluid avatar-contact" src="../assets/img/tn-fer-avatar.png" alt="Fernanda Peña">
         </div>
-        <div class="col-8 d-flex align-items-center justify-content-end">
-          <FormInscription :versionForm="'version-landing'" class="version-landing"></FormInscription>
+        <div class="col-7 offset-1 px-0 d-flex align-items-center justify-content-end">
+          <FormInscription :versionForm="'landing'" class="landing"></FormInscription>
         </div>
       </div>
     </section>

@@ -1,134 +1,220 @@
 @import "variables.scss";
-.dropdown-item{
-  margin-left: 0!important;
 
-  &:active{
-    background-color: $blueTn!important;
+.dropdown-item {
+  margin-left: 0 !important;
+
+  &:active {
+    background-color: $blueTn !important;
   }
 
 }
 
-.container-hero{
-  margin-left: 8%;
+.container-hero {
+  margin-left: 13%;
+  @include sm {
+    margin-left: 4%;
+  }
+  @include lg {
+    margin-left: 8%;
+  }
 }
 
-.points-pattern-left{
+.points-pattern-left {
   background-image: url("~assets/img/svg/tnetworks-points-pattern.svg");
-  width: 88px;
+  width: 65px;
   height: 187px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
-  left: -8%;
+  left: -22%;
+
+  @include sm {
+    width: 56px;
+    height: 130px;
+    top: 47%;
+    transform: translateY(-50%);
+    left: -8%;
+  }
+
+  @include md {
+    width: 75px;
+    height: 167px;
+    top: 48%;
+    transform: translateY(-50%);
+    left: -10%;
+  }
+  @include lg {
+    width: 88px;
+    height: 187px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -8%;
+  }
+
+  //width: 88px;
+  //height: 187px;
+  //background-size: contain;
+  //background-repeat: no-repeat;
+  //background-position: center;
+  //position: absolute;
+  //top: 50%;
+  //transform: translateY(-50%);
+  //left: -8%;
 }
 
-.points-pattern-center{
+.points-pattern-center {
   background-image: url("~assets/img/svg/tnetworks-points-pattern-center.svg");
-  width: 225px;
-  height: 187px;
+  width: 150px;
+  height: 125px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 60%;
+  top: 58%;
   transform: translateY(-50%);
-  left: -8%;
+  left: -10%;
+  @include sm {
+    width: 150px;
+    height: 124px;
+    top: 60%;
+    transform: translateY(-50%);
+    left: -8%;
+  }
+
+  @include md {
+    width: 204px;
+    height: 169px;
+    top: 55%;
+    transform: translateY(-50%);
+    left: -4%;
+  }
+
+  @include lg {
+    width: 225px;
+    height: 187px;
+    top: 62%;
+    transform: translateY(-50%);
+    left: -8%;
+  }
 }
 
-.points-pattern-section2{
+.points-pattern-section2 {
   background-image: url("~assets/img/svg/tn-points-pattern-section2.svg");
-  width: 225px;
-  height: 187px;
+  width: 204px;
+  height: 169px;
+  bottom: 0%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  bottom: 0%;
   transform: translateY(50%);
-  right: 20px;
+  right: 0;
+
+  @include sm {
+    width: 204px;
+    height: 169px;
+    bottom: 0%;
+    transform: translateY(50%);
+    right: 5px;
+  }
+
+  @include md {
+    width: 225px;
+    height: 187px;
+    bottom: 0%;
+    transform: translateY(50%);
+    right: 20px;
+  }
 }
 
-.bg-blue-tn{
+.bg-blue-tn {
   background-color: $blueTn;
 }
 
-.bg-gray-tn{
+.bg-gray-tn {
   background-color: $grayTn;
 }
-.bg-gray-tn-land{
+
+.bg-gray-tn-land {
   background-color: $grayTnLand;
 }
 
-.text-blue-tn{
+.text-blue-tn {
   color: $blueTn;
 }
 
-.text-orange-tn{
+.text-orange-tn {
   color: $ornageTn;
 }
 
-.btn-radius{
+.btn-radius {
   border-radius: 30px;
 }
-.btn-square{
+
+.btn-square {
   border-radius: 5px;
 }
 
-.border-radius-30{
+.border-radius-30 {
   border-radius: 30px;
 }
 
-.border-radius-10{
+.border-radius-10 {
   border-radius: 10px;
 }
 
-.btn-blue{
+.btn-blue {
   background-color: $blueTn;
-  color: white!important;
-  a{
-    color: white!important;
+  color: white !important;
+
+  a {
+    color: white !important;
   }
 }
 
-.btn-gray{
+.btn-gray {
   background-color: $grayTn;
   color: $blueTn;
 }
 
-.bg-cta-landing{
+.bg-cta-landing {
   background-image: url("../img/svg/tn-bg-cta-landing.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.btn-bordered-white{
+.btn-bordered-white {
   border-radius: 10px;
   background-color: transparent;
   border: 2px solid white;
-  a{
-    color: white!important;
+
+  a {
+    color: white !important;
   }
 }
 
-.btn-bordered-white-thin{
+.btn-bordered-white-thin {
   border-radius: 10px;
   background-color: transparent;
   border: 1px solid white;
 }
-.btn-bordered-bottom-white{
+
+.btn-bordered-bottom-white {
   border-radius: 0;
   background-color: transparent;
-  p{
-    color: white!important;
+
+  p {
+    color: white !important;
   }
 
   position: relative;
   overflow: hidden;
-  &:before{
+
+  &:before {
     content: '';
     width: 100%;
     height: 100%;
@@ -139,8 +225,8 @@
     transition: left 0.5s linear;
   }
 
-  &:hover{
-    &:before{
+  &:hover {
+    &:before {
       left: 0;
     }
   }
@@ -148,66 +234,459 @@
 
 
 // Partenrs
-.partner-tn-1{
+.partner-tn-1 {
   background-image: url("../img/svg/tn-partner-vmware.svg");
   background-size: cover;
-  width: 118px;
-  height: 18px;
+  width: 92px;
+  height: 14px;
+
+  @include sm {
+    width: 106px;
+    height: 16px;
+  }
+
+  @include md {
+    width: 111px;
+    height: 17px;
+  }
+  @include lg {
+    width: 118px;
+    height: 18px;
+  }
 }
 
-.partner-tn-2{
+.partner-tn-2 {
   background-image: url("../img/svg/tn-partner-microsoft.svg");
   background-size: cover;
-  width: 118px;
-  height: 32px;
-}
-.partner-tn-3{
-  background-image: url("../img/svg/tn-partner-veeam.svg");
-  background-size: cover;
-  width: 104px;
-  height: 53px;
-}
-.partner-tn-4{
-  background-image: url("../img/svg/tn-partner-hp.svg");
-  background-size: cover;
-  width: 127px;
-  height: 53px;
-}
-.partner-tn-5{
-  background-image: url("../img/svg/tn-partner-cisco.svg");
-  background-size: cover;
-  width: 92px;
-  height: 48px;
-}
-.partner-tn-6{
-  background-image: url("../img/svg/tn-partner-purestorage.svg");
-  background-size: cover;
-  width: 158px;
-  height: 28px;
+  width: 120px;
+  height: 25px;
+
+  @include sm {
+    width: 138px;
+    height: 29px;
+  }
+
+  @include md {
+    width: 144px;
+    height: 30px;
+  }
+  @include lg {
+    width: 154px;
+    height: 32px;
+  }
 }
 
-.card-industry{
+.partner-tn-3 {
+  background-image: url("../img/svg/tn-partner-veeam.svg");
+  background-size: cover;
+
+  width: 81px;
+  height: 41px;
+
+  @include sm {
+    width: 94px;
+    height: 48px;
+  }
+
+  @include md {
+    width: 98px;
+    height: 50px;
+  }
+  @include lg {
+    width: 104px;
+    height: 53px;
+  }
+}
+
+.partner-tn-4 {
+  background-image: url("../img/svg/tn-partner-hp.svg");
+  background-size: cover;
+  width: 99px;
+  height: 41px;
+
+  @include sm {
+    width: 114px;
+    height: 48px;
+  }
+
+  @include md {
+    width: 120px;
+    height: 49px;
+  }
+
+  @include lg {
+    width: 127px;
+    height: 53px;
+  }
+}
+
+.partner-tn-5 {
+  background-image: url("../img/svg/tn-partner-cisco.svg");
+  background-size: cover;
+  width: 71px;
+  height: 37px;
+
+  @include sm {
+    width: 83px;
+    height: 43px;
+  }
+
+  @include md {
+    width: 86px;
+    height: 45px;
+  }
+
+  @include lg {
+    width: 92px;
+    height: 48px;
+  }
+}
+
+.partner-tn-6 {
+  background-image: url("../img/svg/tn-partner-purestorage.svg");
+  background-size: cover;
+  width: 124px;
+  height: 22px;
+
+  @include sm {
+    width: 143px;
+    height: 26px;
+  }
+
+  @include md {
+    width: 148px;
+    height: 27px;
+  }
+  @include lg {
+    width: 158px;
+    height: 28px;
+  }
+}
+
+// INDUSTRY 0.4
+
+.industry-1{
+  width: 40px;
+  height: 40px;
+
+  @include md{
+    width: 34px;
+    height: 37px;
+  }
+
+  @include lg{
+    width: 40px;
+    height: 44px;
+  }
+
+}
+
+.industry-2{
+  width: 52px;
+  height: 41px;
+
+  @include md{
+    width: 44px;
+    height: 35px;
+  }
+
+  @include lg{
+    width: 52px;
+    height: 41px;
+  }
+
+}
+
+.industry-3{
+  width: 49px;
+  height: 49px;
+
+  @include md{
+    width: 41px;
+    height: 41px;
+  }
+
+  @include lg{
+    width: 49px;
+    height: 49px;
+  }
+
+}
+
+.industry-4{
+  width: 40px;
+  height: 40px;
+
+  @include md{
+    width: 46px;
+    height: 41px;
+  }
+
+  @include lg{
+    width: 57px;
+    height: 51px;
+  }
+
+}
+
+.industry-5{
+  width: 40px;
+  height: 40px;
+
+  @include md{
+    width: 39px;
+    height: 40px;
+  }
+
+  @include lg{
+    width: 50px;
+    height: 54px;
+  }
+
+}
+
+.industry-6{
+  width: 40px;
+  height: 40px;
+
+  @include md{
+    width: 40px;
+    height: 40px;
+  }
+
+  @include lg{
+    width: 53px;
+    height: 53px;
+  }
+
+}
+
+//.industry-1{
+//  width: 40px;
+//  height: 40px;
+//
+//  @include md{
+//    width: 34px;
+//    height: 37px;
+//  }
+//
+//  @include lg{
+//    width: 40px;
+//    height: 40px;
+//  }
+//
+//}
+
+.industry-7{
+  width: 40px;
+  height: 40px;
+
+  @include md{
+    width: 40px;
+    height: 40px;
+  }
+
+  @include lg{
+    width: 57px;
+    height: 49px;
+  }
+
+}
+.industry-8{
+  width: 40px;
+  height: 40px;
+
+  @include md{
+    width: 40px;
+    height: 40px;
+  }
+
+  @include lg{
+    width: 55px;
+    height: 49px;
+  }
+
+}
+
+.custommer-1 {
+  width: 157px;
+  height: 28px;
+  @include sm {
+    width: 162px;
+    height: 28px;
+  }
+  @include md {
+    width: 178px;
+    height: 31px;
+  }
+  @include lg {
+    width: 209px;
+    height: 37px;
+  }
+}
+
+.custommer-2 {
+  width: 93px;
+  height: 38px;
+
+  @include sm {
+    width: 96px;
+    height: 39px;
+  }
+  @include md {
+    width: 105px;
+    height: 43px;
+  }
+
+  @include lg {
+    width: 124px;
+    height: 51px;
+  }
+}
+
+.custommer-3 {
+  width: 152px;
+  height: 36px;
+
+  @include sm {
+    width: 157px;
+    height: 37px;
+  }
+  @include md {
+    width: 172px;
+    height: 41px;
+  }
+  @include lg {
+    width: 202px;
+    height: 48px;
+  }
+}
+
+.custommer-4 {
+  width: 98px;
+  height: 39px;
+
+  @include sm {
+    width: 105px;
+    height: 41px;
+  }
+
+  @include md {
+    width: 111px;
+    height: 45px;
+  }
+
+  @include lg {
+    width: 131px;
+    height: 52px;
+  }
+}
+
+.custommer-5 {
+  width: 71px;
+  height: 61px;
+
+  @include sm {
+    width: 73px;
+    height: 62px;
+  }
+  @include md {
+    width: 80px;
+    height: 69px;
+  }
+  @include lg {
+    width: 94px;
+    height: 81px;
+  }
+}
+
+.custommer-6 {
+  width: 132px;
+  height: 24px;
+
+  @include sm {
+    width: 136px;
+    height: 24px;
+  }
+
+  @include md {
+    width: 149px;
+    height: 27px;
+  }
+  @include lg {
+    width: 175px;
+    height: 32px;
+  }
+}
+
+.custommer-7 {
+  width: 100px;
+  height: 73px;
+
+  @include sm {
+    width: 103px;
+    height: 75px;
+  }
+
+  @include md {
+    width: 113px;
+    height: 82px;
+  }
+  @include lg {
+    width: 100px;
+    height: 75px;
+  }
+}
+
+.card-industry {
   transition: background-color 1s ease-in-out;
-  &:hover{
+
+  &:hover {
     background-color: white;
   }
 }
 
-.container5{
+.container5 {
   margin-left: 10%;
+
+  @include sm{
+    margin-left: 3%;
+  }
+
+  @include md{
+    margin-left: 3%;
+  }
+
+  @include lg{
+    margin-left: 10%;
+  }
 }
 
-.container6{
+.container6 {
   margin-right: 10%;
+
+  @include sm{
+    margin-right: 5%;
+  }
+
+  @include md{
+    margin-right: 5%;
+  }
+
+  @include lg{
+    margin-right: 10%;
+  }
 }
 
-.img-side-container{
+.img-side-container {
   position: relative;
-  img{
+
+  img {
     z-index: 3;
   }
-  &:after{
-    content: '';
+
+  &:after {
+
     background-image: url("../img/svg/tn-bg-side-img.svg");
     background-size: contain;
     background-position: center;
@@ -217,27 +696,32 @@
     height: 100%;
     position: absolute;
     z-index: -1;
+    @include lg {
+      content: '';
+    }
   }
 }
 
-.side-right{
+.side-right {
 
-  &:after{
+  &:after {
     left: 25%;
     bottom: -8%;
   }
 }
-.side-left{
 
-  &:after{
+.side-left {
+
+  &:after {
     left: -25%;
     bottom: -8%;
   }
 }
 
-.side-1{
+.side-1 {
 
-  &:after{
+  &:after {
+    content: '';
     background-image: url("../img/svg/tn-bg-landing-img.svg");
     width: 80%;
     height: 130%;
@@ -246,8 +730,10 @@
     top: 50%;
   }
 }
-.side-2{
-  &:after{
+
+.side-2 {
+  &:after {
+    content: '';
     background-image: url("../img/svg/tn-bg-landing-img.svg");
     left: -0;
     bottom: 15%;
@@ -256,8 +742,9 @@
   }
 }
 
-.side-3{
-  &:after{
+.side-3 {
+  &:after {
+    content: '';
     background-image: url("../img/svg/tn-bg-landing-img.svg");
     right: -25%;
     //bottom: 15%;
@@ -268,56 +755,72 @@
   }
 }
 
-.input-tn{
+.input-tn {
   width: 100%;
   background-color: transparent;
   border: none;
   font-family: 'aalto-sans-pro-medium';
-  font-size: $s16;
+  font-size: $s15;
   color: black;
-  border-bottom: 2px solid black;
-  padding-bottom: 8px;
-  &::placeholder{
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+  border-radius: 0;
+  @include sm {
+    padding-bottom: 15px;
+    font-size: $s16;
+  }
+
+  &::placeholder {
     font-family: 'aalto-sans-pro-medium';
     font-size: $s16;
     color: black;
   }
-  &:focus, :active{
+
+  &:focus, :active {
     outline: none;
   }
 }
 
-.logo-tn-footer{
+.logo-tn-footer {
   width: 108px;
 }
 
-.faceb{
+.faceb {
   width: 13px;
   height: 24px;
 }
 
-.insta{
+.insta {
   width: 24px;
   height: 24px;
 }
 
-.whats{
+.whats {
   width: 25px;
   height: 24px;
 }
 
-.version-landing{
-  h3.text-blue-tn{
+.avatar-contact {
+  width: 155px;
+
+  @include sm {
+    width: 373px;
+  }
+}
+
+.landing {
+  h3.text-blue-tn {
     color: black;
   }
 
-  p{
+  p {
     color: $ornageTn;
   }
 
-  button.btn-blue{
+  button.btn-blue {
     background-color: $ornageTn;
-    p{
+
+    p {
       color: white;
       font-family: aalto-sans-pro-medium;
       font-weight: 300;
@@ -325,26 +828,95 @@
   }
 }
 
-.carousel-item{
-  .carousel-caption{
+.dropdown-item {
+  font-family: 'aalto-sans-pro-medium';
+  color: $blueTn;
+}
+
+.carousel-item {
+  .carousel-caption {
     text-shadow: none;
     position: initial;
   }
 }
-.text-shadow-0{
+
+.text-shadow-0 {
   text-shadow: none;
 }
 
-.carousel-indicators{
-  li{
+.carousel-indicators {
+  li {
     height: 5px;
     width: 5px;
-    border-radius: 15px;
+    border-radius: 2px;
     background-color: #666666;
+    border-bottom: none;
+    border-top: none;
   }
-  li.active{
+
+  li.active {
     background-color: $ornageTn;
   }
+}
+
+.text-error {
+  position: relative;
+
+  @include lg {
+    position: absolute;
+  }
+}
+
+.border-left-black{
+  position: relative;
+
+  &:before{
+    content: none;
+    width: 1px;
+    height: 60%;
+    left: 0;
+    bottom: 0;
+    background-color: $blueTn;
+    position: absolute;
+  }
+  @include sm{
+    &:before{
+      content: '';
+    }
+  }
+
+
+  @include lg{
+    &:before{
+      content: none;
+    }
+  }
+}
+
+.logo-header-landing{
+  width: 136px;
+  height: 43px;
+}
+
+.icon-hero-landing{
+
+  width: 78px;
+  height: 78px;
+
+  @include lg{
+    width: 127px;
+    height: 127px;
+  }
+}
+
+.check-land{
+  width: 62px;
+  height: 62px;
+
+@include lg{
+  width: 72px;
+  height: 72px;
+}
 }
 
 //.avatar-contact{
