@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    // title: 'Oseznos | El Equipo de Fútbol Americano de Morelia',
+    // title: '',
     titleTemplate: 'Tnetwors | %s',
     meta: [
       { charset: 'utf-8' },
@@ -61,7 +61,7 @@ export default {
     // baseUrl:''
   },
   server:{
-    // host:'192.168.100.4'
+    host:'192.168.1.72'
   },
   /*
   ** Build configuration

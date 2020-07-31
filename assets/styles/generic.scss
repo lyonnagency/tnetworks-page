@@ -107,6 +107,8 @@ a {
   //}
 }
 
+
+
 .fs-18 {
   font-size: $s15;
 
@@ -121,6 +123,12 @@ a {
   //@include lg {
   //  font-size: $s18 !important;
   //}
+}
+
+.fs-sm-18{
+  @include sm{
+    font-size: $s18;
+  }
 }
 
 .fs-19 {
@@ -189,6 +197,14 @@ a {
   font-size: $s25;
 }
 
+.fs-26 {
+  font-size: $s22;
+
+  @include lg{
+    font-size: $s26;
+  }
+}
+
 .fs-28 {
   font-size: $s28;
 }
@@ -196,13 +212,24 @@ a {
 .fs-30 {
   font-size: $s25;
 
+  @include sm{
+    font-size: $s22;
+  }
+
   @include lg{
     font-size: $s30;
   }
 }
 
 .fs-35 {
-  font-size: $s35;
+  font-size: $s25;
+
+  @include md{
+    font-size: $s30;
+  }
+  @include lg{
+    font-size: $s35;
+  }
 }
 
 
@@ -254,8 +281,26 @@ a {
   //@include md {
   //  font-size: $s36;
   //}
-  @include lg {
+  @include sm {
+    font-size: $s40;
+  }
+
+  @include md {
     font-size: $s50;
+  }
+}
+.fs-50-land {
+  font-size: $s32;
+  //font-size: calc((0.5 * 60px));
+  //@include md {
+  //  font-size: $s36;
+  //}
+  @include sm {
+    font-size: $s30;
+  }
+
+  @include lg {
+    font-size: $s30;
   }
 }
 

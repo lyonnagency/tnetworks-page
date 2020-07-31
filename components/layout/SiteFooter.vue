@@ -5,8 +5,8 @@
         <div class="col-sm-3 col-md-2 col-lg-2 pr-lg-5 pr-lg-5 px-sm-0 my-4 d-flex justify-content-center">
           <img class="logo-tn-footer" src="~assets/img/svg/tnetworks-logo-footer.svg" alt="Logo Oseznos de Morelia"/>
         </div>
-        <div class="d-flex align-items-end col-sm-4 col-md-5 col-lg-3 px-sm-2 my-4 pr-md-4 px-4 flex-wrap
-        justify-content-center justify-content-sm-start pl-md-5">
+        <div class="d-flex align-items-end col-sm-4 col-md-5 col-lg-3 px-sm-0 my-4 pr-md-4 px-4 flex-wrap
+        justify-content-center justify-content-sm-start pl-md-5 pl-lg-0 pl-xl-5 ml-sm-4 ml-md-0">
           <div class="">
             <p class="ff-aalto-sans-pro-medium fs-16 mb-0 text-blue-tn w-100">
               m: hola@tnetworks.com.mx
@@ -18,31 +18,32 @@
         </div>
         <div
           class="
-          d-flex align-items-end col-sm-3 offset-sm-1 offset-md-0 justify-content-end justify-content-center justify-content-sm-around pb-2 col-md-5
-          col-lg-2 my-4 pr-lg-0 pl-lg-0 px-3 pl-md-5  flex-wrap border-left-black">
-          <a href="#" target="_blank" class="faceb mx-4 mx-sm-0">
+          d-flex align-items-end col-sm-3 ml-sm-4 ml-md-0 justify-content-end justify-content-center
+          justify-content-sm-around pb-2 col-md-5 col-lg-2 my-4 pr-lg-0 pl-lg-0 px-3 pl-md-5 flex-wrap
+          border-left-black pr-sm-0">
+          <a href="https://www.facebook.com/TNetworksLessRisk" target="_blank" class="faceb mx-4 mx-sm-0">
             <img
               src="~assets/img/svg/facebook.svg"
               alt="Facebook Tnetworks de Morelia"
             />
           </a>
-          <a href="#" target="_blank" class="insta mx-4 mx-sm-0">
+          <a href="https://www.instagram.com/tnetworksmx/" target="_blank" class="insta mx-4 mx-sm-0">
             <img
               src="~assets/img/svg/instagram.svg"
-              alt="Instagram Oseznos de Morelia"
+              alt="Instagram Tnetworks"
             />
           </a>
           <a class="wp-link whats mx-4 mx-sm-0" target="_blank"
-             href="https://wa.me/5214433679536?">
+             href="https://www.linkedin.com/company/t-networksmx/">
             <img
                  src="~assets/img/svg/linkedin.svg"
-                 alt="Whatsapp Oseznos de Morelia"/>
+                 alt="Whatsapp Tnetworks"/>
           </a>
         </div>
-        <div class="col-md-6 col-md-12 col-lg-3 offset-lg-2 d-flex justify-content-center justify-content-md-end mt-5 pt-5 mt-lg-0
-        pr-md-4 align-items-end mb-lg-4 pb-lg-2">
-          <a href="#" class="mx-2">
-            <img width="25" src="~assets/img/svg/merkafy.svg" alt="Lyonn Agency" class="mr-2"/>
+        <div class="col-md-6 col-md-12 col-lg-4 col-xl-3 offset-lg-1 offset-xl-2 d-flex justify-content-center
+        justify-content-md-end mt-5 pt-5 mt-lg-0 pr-md-4 px-lg-0 align-items-end mb-lg-4 pb-lg-2">
+          <a href="https://www.facebook.com/merkafy/" class="mx-2">
+            <img width="25" src="~assets/img/svg/merkafy.svg" alt="Merkafy" class="mr-2"/>
           </a>
           <a href="https://lyonn.co/" target="_blank" class="mx-2 ml-md-0 ml-lg-2 mr-md-4">
             <img width="30" src="~assets/img/svg/sponsor-lyonn.svg" alt="Lyonn Agency" class="mr-2"/>

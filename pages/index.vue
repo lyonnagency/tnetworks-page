@@ -33,22 +33,22 @@
         </button>
       </div>
       <div class="d-flex pb-3 py-sm-5 container1 pl-sm-4 mt-3 mt-sm-5 flex-wrap">
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 my-4">
           <div class="partner-tn-1"></div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 my-4">
           <div class="partner-tn-2"></div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 my-4">
           <div class="partner-tn-3"></div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 my-4">
           <div class="partner-tn-4"></div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 my-4">
           <div class="partner-tn-5"></div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-4">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 my-4">
           <div class="partner-tn-6"></div>
         </div>
       </div>
@@ -247,6 +247,7 @@
         </div>
       </div>
     </section>
+    <div id="contact"></div>
     <section class="py-5 bg-gray-tn">
       <div class="d-flex container2 py-5 flex-wrap">
         <div class="col-12 col-sm-4 text-center">
@@ -546,28 +547,28 @@
             hid: "description",
             name: "description",
             content:
-              "Oseznos, el equipo de fútbol americano infantil y juvenil para niños de 5 a 18 años en Morelia que pretende formar seres humanos con disciplina, honor y garra."
+              ""
           },
           {
             property: "og:description",
             content:
-              "Oseznos, el equipo de fútbol americano infantil y juvenil para niños de 5 a 18 años en Morelia que pretende formar seres humanos con disciplina, honor y garra.",
+              "",
             vmid: "og:description"
           },
           {
             property: "og:url",
-            content: "http://oseznos.com.mx/",
+            content: "",
             vmid: "og:url"
           },
           {
             property: "og:image",
-            content: "http://oseznos.com.mx/oseznos-logo-meta.jpg",
+            content: "",
             // content: this.socialImg,
             vmid: "og:image"
           },
           {
             property: "og:title",
-            content: "Oseznos de Morelia | El Equipo de Fútbol Americano de Morelia",
+            content: "",
             vmid: "og:title"
           },
           {
@@ -593,13 +594,13 @@
           },
           {
             property: "twitter:title",
-            content: "Oseznos de Morelia | El Equipo de Fútbol Americano de Morelia",
+            content: "",
             vmid: "twitter:title"
           },
           {
             property: "twitter:description",
             content:
-              "Oseznos, el equipo de fútbol americano infantil y juvenil para niños de 5 a 18 años en Morelia que pretende formar seres humanos con disciplina, honor y garra.",
+              "",
             vmid: "twitter:description"
           }
         ]

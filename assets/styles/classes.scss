@@ -13,6 +13,11 @@ body, h2, h3 {
   //  font-size: 16px;
   //}
 }
+
+html{
+  scroll-behavior: smooth;
+
+}
 @import "fonts.scss";
 @import "extention.scss";
 
@@ -299,7 +304,7 @@ body, h2, h3 {
 .hero {
   height: 110vh;
   @include sm{
-    height: 90vh;
+    height: 500px;
   }
   margin-left: 0;
   position: relative;
@@ -337,7 +342,7 @@ body, h2, h3 {
 .hero-landing {
 
   @include sm {
-    height: 400px;
+    height: 500px;
   }
   @include md {
     height: 600px;

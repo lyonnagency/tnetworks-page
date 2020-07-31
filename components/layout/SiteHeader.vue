@@ -178,12 +178,13 @@
             <b-nav-item to="/" class="hover-center-underline">
               Nosotros
             </b-nav-item>
+            <li class="nav-item fs-login-on-menu arrow-after-text btn-radius btn-blue p-2 ml-sm-3 ml-md-5 ml-lg-4 px-4 py-3 px-sm-3 px-lg-3">
+              <a
+                href="#contact">
+                Contáctenos
+              </a>
+            </li>
 
-            <b-nav-item
-              class="fs-login-on-menu arrow-after-text btn-radius btn-blue p-2 ml-sm-3 ml-md-5 ml-lg-4 px-4 px-sm-3 px-lg-2"
-              to="/">
-              Contáctenos
-            </b-nav-item>
 
           </b-navbar-nav>
 <!--          <b-navbar-nav class="d-flex align-items-center col-12 col-lg-3">-->

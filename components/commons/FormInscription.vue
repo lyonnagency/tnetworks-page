@@ -2,9 +2,9 @@
   <section class="form-inscriptions col-12 pr-0">
     <div class="form">
       <h3 class="fs-32 fs-xs-32 ff-flexo-bold text-blue-tn text-center text-sm-left ">¿Listo?, platiquemos.
-        <br class="d-none d-lg-block">
+        <br class="d-none d-sm-block">
         Le atiende Fernanda Peña.</h3>
-      <p class="ff-flexo-bold fs-14 text-center text-sm-left mt-4">CUSTOMER ADQUISITION MANAGER_</p>
+      <p class="ff-flexo-bold fs-14 text-center text-sm-left mt-3 mt-md-4">CUSTOMER ADQUISITION MANAGER_</p>
       <ValidationObserver
         class="col-12 d-flex align-items-center pr-0 px-0 mt-5"
         v-slot="{ handleSubmit }">
