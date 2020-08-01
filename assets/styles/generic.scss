@@ -125,10 +125,8 @@ a {
   //}
 }
 
-.fs-sm-18{
-  @include sm{
+.fs-xs-18{
     font-size: $s18;
-  }
 }
 
 .fs-19 {
@@ -300,7 +298,7 @@ a {
   }
 
   @include lg {
-    font-size: $s30;
+    font-size: $s50;
   }
 }
 
@@ -341,7 +339,7 @@ a {
 
 .fs-72 {
   font-size: $s40;
-  @include lg{
+  @include xl{
     font-size: $s72;
   }
   //font-size: calc((0.6 * 65px));

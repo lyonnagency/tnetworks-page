@@ -80,7 +80,7 @@
         </button>
       </div>
       <div class="d-flex container1 mt-5 flex-wrap">
-        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+        <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
           <div class="text-center col-5 col-sm-4 col-md-3 px-1">
             <img class="industry-1" width="40" height="44" src="../assets/img/svg/tn-industria-1.svg" alt="Industria 1">
           </div>
@@ -88,7 +88,7 @@
             <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Infraestructura de <br> telecomunicaciones</h3>
           </div>
         </div>
-        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+        <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
           <div class="text-center col-5 col-sm-4 col-md-3 px-1">
             <img class="industry-2" width="52" height="41" src="../assets/img/svg/tn-industria-2.svg" alt="Industria 1">
           </div>
@@ -96,7 +96,7 @@
             <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Almacenamiento <br> All Flash</h3>
           </div>
         </div>
-        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+        <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
           <div class="text-center col-5 col-sm-4 col-md-3 px-1">
             <img class="industry-3" width="49" height="49" src="../assets/img/svg/tn-industria-3.svg" alt="Industria 1">
           </div>
@@ -104,7 +104,7 @@
             <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Procesamiento <br> de datos</h3>
           </div>
         </div>
-        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+        <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
           <div class="text-center col-5 col-sm-4 col-md-3 px-1">
             <img class="industry-4" width="58" height="51" src="../assets/img/svg/tn-industria-4.svg" alt="Industria 1">
           </div>
@@ -113,7 +113,7 @@
           </div>
         </div>
 
-        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+        <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
           <div class="text-center col-5 col-sm-4 col-md-3 px-1">
             <img class="industry-5" width="51" height="54" src="../assets/img/svg/tn-industria-5.svg" alt="Industria 1">
           </div>
@@ -121,7 +121,7 @@
             <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Convergencia e <br> Hiperconvergencia</h3>
           </div>
         </div>
-        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+        <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
           <div class="text-center col-5 col-sm-4 col-md-3 px-1">
             <img class="industry-6" width="52" height="53" src="../assets/img/svg/tn-industria-6.svg" alt="Industria 1">
           </div>
@@ -131,7 +131,7 @@
         </div>
 
 
-        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+        <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
           <div class="text-center col-5 col-sm-4 col-md-3 px-1">
             <img class="industry-7" width="51" height="49" src="../assets/img/svg/tn-industria-7.svg" alt="Industria 1">
           </div>
@@ -139,7 +139,7 @@
             <h3 class="ff-flexo-bold fs-19 text-blue-tn mb-0 mt-1">Seguridad de <br> la información</h3>
           </div>
         </div>
-        <div class="col col-sm-6 col-md-4 col-lg border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
+        <div class="col col-sm-6 col-md-4 col-lg-4 col-xl-3 border-radius-30 card-industry py-5 py-md-4 py-lg-5 my-2 px-4 px-md-2 px-lg-4 mx-0 d-flex justify-content-center">
           <div class="text-center col-5 col-sm-4 col-md-3 px-1">
             <img class="industry-8" width="55" height="45 " src="../assets/img/svg/tn-industria-8.svg" alt="Industria 1">
           </div>
@@ -159,7 +159,7 @@
       <div class="d-flex container5 py-sm-0 my-md-5 pt-4 mt-5 pb-lg-5 align-items-center flex-wrap">
         <div class="col-12 col-sm-6 col-md-5 col-lg-4 pr-5 pr-sm-4 pr-lg-0">
           <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">Digitalización_</h3>
-          <h2 class="ff-flexo-bold fs-50 w-100 mb-5 text-blue-tn">Menos riesgos,
+          <h2 class="ff-flexo-bold fs-50-land w-100 mb-5 text-blue-tn">Menos riesgos,
             más continuidad.</h2>
           <p class="ff-aalto-sans-pro-regular fs-18 mb-5 mr-sm-5 mr-md-0">
             Reduzca gastos de TI aumentando la eficiencia y la agilidad de su empresa con virtualización. Obtenga una
@@ -184,7 +184,7 @@
         </div>
         <div class="col-12 col-sm-5 col-md-5 col-lg-4 pl-5 pl-md-4 offset-lg-1">
           <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">INDUSTRIA 4.0_</h3>
-          <h2 class="ff-flexo-bold fs-50 w-100 mb-5 text-blue-tn">Revolución <br>
+          <h2 class="ff-flexo-bold fs-50-land w-100 mb-5 text-blue-tn">Revolución <br>
             tecnológica.</h2>
           <p class="ff-aalto-sans-pro-regular fs-18 mb-5">
             Favorezca la continuidad de sus operaciones integrando unidades de negocio, personas y activos mediante
@@ -196,7 +196,7 @@
       <div class="d-flex container5 py-5 my-5 py-sm-0 my-sm-0 py-md-5 py-md-5 align-items-center flex-wrap">
         <div class="col-12 col-sm-6 col-md-5 col-lg-4 pr-5 pr-sm-4 pr-lg-0">
           <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">DATA CENTER_</h3>
-          <h2 class="ff-flexo-bold fs-50 w-100 mb-5 text-blue-tn">Sin <br>
+          <h2 class="ff-flexo-bold fs-50-land w-100 mb-5 text-blue-tn">Sin <br>
             límites.</h2>
           <p class="ff-aalto-sans-pro-regular fs-18 mb-5">
             Mejore los tiempos de respuesta y agilidad de sus centros de datos con soluciones de administración siempre

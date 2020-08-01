@@ -48,13 +48,13 @@
               </ValidationProvider>
 
               <div class="col-12 col-lg-6 d-flex flex-wrap align-items-center pr-sm-0 pl-sm-0 justify-content-center justify-content-sm-start mt-4 mt-sm-0 mt-lg-3">
-                <button type="submit" class="py-3 btn-radius btn-blue py-2 btn fs-xs-14 fs-16 ff-aalto-sans-pro-medium arrow-after-text mt-sm-3">
+                <button type="submit" :class="'btn-form-'+versionForm" class="py-3 btn-radius btn-blue py-2 btn fs-xs-14 fs-16 ff-aalto-sans-pro-medium arrow-after-text mt-sm-3">
                   <p class="mx-3 mb-0">Contáctenos</p>
                 </button>
               </div>
             </div>
             <div class="col-12 d-flex px-0 mt-3">
-              <span v-show="mailStatus" class="col-12 text-center ff-aalto-sans-pro-medium fs-18 color-purple mt-2 px-0">
+              <span v-show="mailStatus" class="col-12 text-center text-sm-left ff-aalto-sans-pro-medium fs-18 color-purple mt-2 px-0">
                 Gracias por ponerte en contacto, nos comunicaremos a la brevedad
               </span>
             </div>

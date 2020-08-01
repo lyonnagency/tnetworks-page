@@ -912,7 +912,17 @@
     height: 61px;
   }
 
-  @include lg {
+  @include md{
+    width: 80px;
+    height: 80px;
+  }
+
+  @include md{
+    width: 90px;
+    height: 90px;
+  }
+
+  @include xl {
     width: 127px;
     height: 127px;
   }
@@ -923,6 +933,11 @@
   height: 62px;
 
   @include lg {
+    width: 65px;
+    height: 65px;
+  }
+
+  @include xl{
     width: 72px;
     height: 72px;
   }
@@ -936,6 +951,11 @@
     width: 222px;
     height: 39px;
   }
+}
+
+
+.btn-form-landing{
+  border-radius: 15px;
 }
 
 //.avatar-contact{
