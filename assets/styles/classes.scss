@@ -95,7 +95,7 @@ html{
   background-color: white;
   // So when the menu is active, fills the screen with the menu
   overflow: scroll;
-  height: 100vh;
+  height: 88vh;
   @include lg {
     height: auto;
     background-color: rgba($color: #fff, $alpha: 0.1);

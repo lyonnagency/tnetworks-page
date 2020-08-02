@@ -1,6 +1,6 @@
-# Oseznos
+# Tnetworks
 
-> Ozesnos. Club de football américano Morelia
+> Tnetwors.
 
 ## Build Setup
 

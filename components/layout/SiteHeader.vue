@@ -37,9 +37,9 @@
           </b-navbar-nav>
           <!-- Right aligned nav items -->
           <b-navbar-nav
-            class="col-12 col-lg-6 justify-content-end align-items-center px-2"
+            class="col-12 col-lg-6 justify-content-end align-items-center px-2 mt-4 mt-sm-0"
           >
-            <b-nav-item-dropdown text="Servicios" right>
+            <b-nav-item-dropdown class="mt-1 my-sm-0" text="Servicios" right>
               <li class="nav-item">
                 <a class="text-blue-tn" href="#digitalizacion" @click="scrollIntoView"> Digitalización </a>
               </li>
@@ -51,14 +51,14 @@
               </li>
             </b-nav-item-dropdown>
 
-            <li class="nav-item">
+            <li class="nav-item my-1 my-sm-0">
               <a
                 class="text-blue-tn py-2"
                 href="#">
                 Nosotros
               </a>
             </li>
-            <li class="nav-item fs-login-on-menu arrow-after-text btn-radius btn-blue p-2 ml-sm-3 ml-md-5 ml-lg-4 px-4 py-3 px-sm-3 px-lg-3">
+            <li class="nav-item my-1 my-sm-0 fs-login-on-menu arrow-after-text btn-radius btn-blue p-2 ml-sm-3 ml-md-5 ml-lg-4 px-4 py-3 px-sm-3 px-lg-3">
               <a
                 href="#contact">
                 Contáctenos
