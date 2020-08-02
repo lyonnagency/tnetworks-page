@@ -16,11 +16,17 @@
               height="49"
             />
           </nuxt-link>
-          <b-nav-item
-            class="fs-login-on-menu arrow-after-text btn-bordered-white px-lg-3 px-2 py-1 py-lg-2 fs-16"
-            to="/">
-            Contáctenos
-          </b-nav-item>
+          <li class="fs-login-on-menu arrow-after-text btn-bordered-white px-lg-3 px-2 py-1 py-lg-2 fs-16">
+            <a
+              href="#contact">
+              Contáctenos
+            </a>
+          </li>
+<!--          <b-nav-item-->
+<!--            class="fs-login-on-menu arrow-after-text btn-bordered-white px-lg-3 px-2 py-1 py-lg-2 fs-16"-->
+<!--            to="/">-->
+<!--            Contáctenos-->
+<!--          </b-nav-item>-->
         </b-navbar-nav>
       </div>
     </div>
@@ -38,11 +44,11 @@
               habilita aplicaciones
               de última generación eliminando las costosas actualizaciones y disminuyendo los tiempos de espera.
             </p>
-            <button
+            <a href="#contact"
               class="arrow-after-text arrow-after-text-bold btn-radius btn-bordered-bottom-white px-0 py-2 mt-sm-2 mt-lg-4 btn
               fs-16 ff-aalto-sans-pro-medium">
               <p class="mx-0 mb-0">Contáctenos</p>
-            </button>
+            </a>
           </div>
         </div>
         <div
@@ -321,12 +327,13 @@
         </b-carousel>
       </div>
     </section>
+    <div id="contact"></div>
     <section class="py-sm-5 pt-5">
       <div class="d-flex flex-wrap container2 py-5">
-        <div class="col-12 text-center text-sm-left col-sm-4 mb-4 mb-sm-0">
+        <div class="col-12 col-sm-4 col-md-5 text-center col-sm-4 mb-4 mb-sm-0">
           <img class="img-fluid avatar-contact" src="../assets/img/tn-fer-avatar.png" alt="Fernanda Peña">
         </div>
-        <div class="col-12 col-sm-7 offset-sm-1 px-0 d-flex align-items-center justify-content-end">
+        <div class="col-12 col-sm-7 col-md-6 ml-sm-5 px-0 d-flex align-items-center justify-content-end">
           <FormInscription :versionForm="'landing'" class="landing"></FormInscription>
         </div>
       </div>
@@ -358,34 +365,34 @@
     },
     head() {
       return {
-        title: "La mejor escuela de fútbol americano y tochito",
+        title: "Landing page",
         meta: [
           {
             hid: "description",
             name: "description",
             content:
-              "Oseznos de Morelia, es la mejor escuela de fútbol americano para niñas y niños, enseñamos las bases del juego y los valores del deporte"
+              ""
           },
           {
             property: "og:description",
             content:
-              "Oseznos de Morelia, es la mejor escuela de fútbol americano para niñas y niños, enseñamos las bases del juego y los valores del deporte",
+              "",
             vmid: "og:description"
           },
           {
             property: "og:url",
-            content: "http://oseznos.com.mx/la-escuela",
+            content: "",
             vmid: "og:url"
           },
           {
             property: "og:image",
-            content: "http://oseznos.com.mx/oseznos-logo-meta.jpg",
+            content: "",
             // content: this.socialImg,
             vmid: "og:image"
           },
           {
             property: "og:title",
-            content: "Oseznos de Morelia | La mejor escuela de fútbol americano y tochito",
+            content: "",
             vmid: "og:title"
           },
           {
@@ -395,7 +402,7 @@
           },
           {
             property: "og:site_name",
-            content: "Oseznos de Morelia",
+            content: "",
             vmid: "og:title"
           },
           {
@@ -405,13 +412,13 @@
           },
           {
             property: "twitter:image",
-            content: "http://oseznos.com.mx/oseznos-logo-meta.jpg",
+            content: "",
             // content: this.socialImg,
             vmid: "twitter:image"
           },
           {
             property: "twitter:title",
-            content: "Oseznos de Morelia | La mejor escuela de fútbol americano y tochito",
+            content: "",
             vmid: "twitter:title"
           },
           {

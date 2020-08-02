@@ -141,41 +141,34 @@ a {
 
 }
 
-// .fs-sm-18{
-//   font-size: 18px!important;
-// }
+
 .fs-20 {
   font-size: $s16;
 
   @include sm {
     font-size: $s18;
   }
-  //font-size: calc((0.6 * 22px));
 
-  //@include md {
-  //  font-size: calc((0.7 * 22px));
-  //}
-  //
   @include lg {
     font-size: $s20;
   }
 }
 
-.fs-22 {
-  font-size: $s16;
-  //font-size: calc((0.6 * 22px));
+//.fs-22 {
+//  font-size: $s16;
+//  //font-size: calc((0.6 * 22px));
+//
+//  //@include md {
+//  //  font-size: calc((0.7 * 22px));
+//  //}
+//  //
+//  @include lg {
+//    font-size: $s20;
+//  }
+//}
 
-  //@include md {
-  //  font-size: calc((0.7 * 22px));
-  //}
-  //
-  @include lg {
-    font-size: $s20;
-  }
-}
-
 .fs-22 {
-  font-size: $s16;
+  font-size: $s18;
   //font-size: calc((0.6 * 22px));
 
   //@include md {
@@ -186,6 +179,13 @@ a {
     font-size: $s22;
   }
 }
+
+.fs-lg-22{
+  @include lg{
+    font-size: 22px;
+  }
+}
+
 
 .fs-24 {
   font-size: $s24;
@@ -401,6 +401,17 @@ a {
   @include lg{
     font-size: $s16;
   }
+}
+
+.fs-lg-16{
+  @include lg{
+    font-size: 16px;
+  }
+}
+
+
+.fs-xs-20 {
+  font-size: $s20;
 }
 
 .fs-xs-32 {

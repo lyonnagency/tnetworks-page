@@ -176,13 +176,16 @@ html{
   .menu-header {
     .nav-item {
       a {
-        font-size: $s22;
+        font-size: $s20;
         font-family: "aalto-sans-pro-medium";
         letter-spacing: 0px;
         @include restartLink;
         position: relative;
         line-height: normal;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
         @include sm{
           font-size: $s14;
         }
@@ -234,18 +237,40 @@ html{
         cursor: pointer;
       }
     }
+
+    .reset-toggler{
+      background-color: transparent;
+      border-color: transparent;
+      font-size: $s16;
+      display: block!important;
+      padding: 0;
+    }
   }
 }
 
-.dropdown-toggle::after {
-  background-image: url("../img/svg/tnetworks-arrow-down.svg");
-  background-size: contain;
-  background-position: center;
-  width: 10px;
-  height: 5px;
-  border: none;
-  vertical-align: middle;
-  margin-left: 20px;
+.dropdown-menu{
+  .nav-item{
+    margin: 5px 0;
+    transition: background-color 0.2s linear;
+    &:hover{
+      background-color: $grayTnLand;
+    }
+  }
+}
+
+.dropdown-toggle{
+  justify-content: center;
+  text-align: center;
+  &:after {
+    background-image: url("../img/svg/tnetworks-arrow-down.svg");
+    background-size: contain;
+    background-position: center;
+    width: 10px;
+    height: 5px;
+    border: none;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
 }
 
 .brand-icon {
@@ -1563,9 +1588,9 @@ html{
   z-index: 10;
 }
 
-
-
-
-
-
+.b-nav-dropdown{
+  a{
+    justify-content: center;
+  }
+}
 

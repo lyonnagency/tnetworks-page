@@ -42,7 +42,7 @@
         </div>
         <div class="col-md-6 col-md-12 col-lg-4 col-xl-3 offset-lg-1 offset-xl-2 d-flex justify-content-center
         justify-content-md-end mt-5 pt-5 mt-lg-0 pr-md-4 px-lg-0 align-items-end mb-lg-4 pb-lg-2">
-          <a href="https://www.facebook.com/merkafy/" class="mx-2">
+          <a href="https://www.facebook.com/merkafy/" target="_blank" class="mx-2">
             <img width="25" src="~assets/img/svg/merkafy.svg" alt="Merkafy" class="mr-2"/>
           </a>
           <a href="https://lyonn.co/" target="_blank" class="mx-2 ml-md-0 ml-lg-2 mr-md-4">

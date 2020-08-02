@@ -8,11 +8,11 @@
           <div class="d-flex flex-wrap mt-5 pt-5 mt-sm-0 mt-md-5 pt-md-5 ">
             <h2 class="ff-flexo-bold fs-50 fs-xs-50 w-100 mb-lg-5 pb-lg-4 mb-4 line-height-1-5 text-blue-tn">Mitigue riesgos y <br> favorezca la continuidad <br> de su
               negocio.</h2>
-            <button
+            <a href="#contact"
               class="arrow-after-text arrow-after-text-bold btn-radius btn-blue px-4 px-sm-3 py-md-2 btn fs-xs-16 fs-16
               ff-aalto-sans-pro-medium">
               <p class="mx-2 p-2 mb-0">Contáctenos</p>
-            </button>
+            </a>
           </div>
         </div>
         <div class="col-12 col-sm-6 d-flex align-items-sm-center position-relative ml-0 px-0 px-md-3 mt-4 mt-md-4">
@@ -75,7 +75,7 @@
     </section>
     <section class="py-5 pt-sm-4 bg-gray-tn">
       <div class="w-100 d-flex justify-content-center space-section-top pb-5">
-        <button class="btn-radius btn-blue px-5 py-2 btn fs-16 ff-flexo-bold text-uppercase">
+        <button class="btn-radius btn-blue px-5 py-2 btn fs-xs-18 fs-lg-22 ff-flexo-bold text-uppercase">
           <p class="mx-2 p-2 mb-0">Industria 4.0 ___</p>
         </button>
       </div>
@@ -156,6 +156,7 @@
     </section>
     <section class="py-md-5">
 
+      <div id="digitalizacion"></div>
       <div class="d-flex container5 py-sm-0 my-md-5 pt-4 mt-5 pb-lg-5 align-items-center flex-wrap">
         <div class="col-12 col-sm-6 col-md-5 col-lg-4 pr-5 pr-sm-4 pr-lg-0">
           <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">Digitalización_</h3>
@@ -173,6 +174,7 @@
                  alt="Menos riesgo, más continuidad - tnetworks">
           </div>
         </div>
+        <div id="industria"></div>
       </div>
 
       <div class="d-flex container6 py-sm-0 my-md-5 py-lg-5 my-lg-5 mt-5 pt-5 align-items-center flex-wrap-reverse">
@@ -183,7 +185,9 @@
           </div>
         </div>
         <div class="col-12 col-sm-5 col-md-5 col-lg-4 pl-5 pl-md-4 offset-lg-1">
-          <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">INDUSTRIA 4.0_</h3>
+          <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">
+            INDUSTRIA 4.0_
+          </h3>
           <h2 class="ff-flexo-bold fs-50-land w-100 mb-5 text-blue-tn">Revolución <br>
             tecnológica.</h2>
           <p class="ff-aalto-sans-pro-regular fs-18 mb-5">
@@ -191,10 +195,13 @@
             tecnologías inteligentes. La industria 4.0 beneficia la agilidad y seguridad de la información.
           </p>
         </div>
+        <div id="datacenter"></div>
       </div>
+
 
       <div class="d-flex container5 py-5 my-5 py-sm-0 my-sm-0 py-md-5 py-md-5 align-items-center flex-wrap">
         <div class="col-12 col-sm-6 col-md-5 col-lg-4 pr-5 pr-sm-4 pr-lg-0">
+
           <h3 class="ff-flexo-bold fs-16 text-blue-tn text-uppercase mb-sm-4 mb-2 fs-lg-23">DATA CENTER_</h3>
           <h2 class="ff-flexo-bold fs-50-land w-100 mb-5 text-blue-tn">Sin <br>
             límites.</h2>
@@ -214,7 +221,7 @@
     </section>
     <section class="py-lg-5 pb-md-5 container2">
       <div class="py-5 my-4 pt-md-0 mt-md-0 py-lg-5 my-lg-4">
-        <h2 class="ff-flexo-bold fs-20 text-blue-tn text-uppercase mb-md-5 text-center text-md-left">Confían en nosotros __</h2>
+        <h2 class="ff-flexo-bold fs-xs-20 text-blue-tn text-uppercase mb-md-5 text-center text-md-left">Confían en nosotros __</h2>
         <div class="d-flex flex-wrap pt-5">
           <div class="col-6 col-sm-3 col-lg-2 my-4 my-0 col-sm d-flex align-items-lg-center align-items-end justify-content-center">
             <img class="img-fluid mt-4 custommer-1" src="../assets/img/svg/tn-customer-1.svg" alt="Hutchison ports">
@@ -250,10 +257,10 @@
     <div id="contact"></div>
     <section class="py-5 bg-gray-tn">
       <div class="d-flex container2 py-5 flex-wrap">
-        <div class="col-12 col-sm-4 text-center">
+        <div class="col-12 col-sm-4 col-md-5 text-center">
           <img class="img-fluid avatar-contact" src="../assets/img/tn-fer-avatar.png" alt="Fernanda Peña">
         </div>
-        <div class="col-12 col-sm-7 offset-sm-1 d-flex align-items-center justify-content-end px-0 mt-4 mt-sm-0">
+        <div class="col-12 col-sm-7 col-md-6 ml-sm-5 d-flex align-items-center justify-content-end px-0 mt-4 mt-sm-0">
               <FormInscription></FormInscription>
         </div>
       </div>
@@ -541,7 +548,7 @@
     },
     head() {
       return {
-        title: "El Equipo de Fútbol Americano de Morelia",
+        title: "Inicio",
         meta: [
           {
             hid: "description",
@@ -578,7 +585,7 @@
           },
           {
             property: "og:site_name",
-            content: "Oseznos de Morelia",
+            content: "",
             vmid: "og:title"
           },
           {
@@ -588,7 +595,7 @@
           },
           {
             property: "twitter:image",
-            content: "http://oseznos.com.mx/oseznos-logo-meta.jpg",
+            content: "",
             // content: this.socialImg,
             vmid: "twitter:image"
           },

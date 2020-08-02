@@ -21,7 +21,7 @@
                 rules="required"
                 v-slot="{ errors }"
                 ref="empresaIn"
-                class="col-12 col-lg-6 pl-sm-0"
+                class="col-12 col-lg-6 pl-sm-0 pr-lg-3"
               >
                 <input
                   type="text"
@@ -36,7 +36,7 @@
                 rules="required"
                 v-slot="{ errors }"
                 ref="puestoIn"
-                class="col-12 col-lg-6 pl-sm-0"
+                class="col-12 col-lg-6 pl-sm-0 pl-lg-3"
               >
                 <input
                   type="text"
@@ -48,7 +48,7 @@
               </ValidationProvider>
 
               <div class="col-12 col-lg-6 d-flex flex-wrap align-items-center pr-sm-0 pl-sm-0 justify-content-center justify-content-sm-start mt-4 mt-sm-0 mt-lg-3">
-                <button type="submit" :class="'btn-form-'+versionForm" class="py-3 btn-radius btn-blue py-2 btn fs-xs-14 fs-16 ff-aalto-sans-pro-medium arrow-after-text mt-sm-3">
+                <button type="submit" :class="'btn-form-'+versionForm" class="py-3 btn-radius btn-blue py-2 btn fs-14 fs-lg-16 ff-aalto-sans-pro-medium arrow-after-text mt-sm-3">
                   <p class="mx-3 mb-0">Contáctenos</p>
                 </button>
               </div>
