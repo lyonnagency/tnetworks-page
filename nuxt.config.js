@@ -50,7 +50,7 @@ export default {
 
   ],
   gtm: {
-    id: 'GTM-NRDWDVX'
+    id: 'GTM-'
   },
   /*
   ** Nuxt.js modules
