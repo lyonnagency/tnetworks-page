@@ -75,11 +75,11 @@ html{
   position: fixed !important;
   background-color: white !important;
   animation: enterMenu 0.5s linear 0.1s 1 normal both;
-  @include lg {
-    position: absolute !important;
-    height: auto;
-    background-color: rgba($color: #fff, $alpha: 0.97) !important;
-  }
+  //@include lg {
+  //  position: absolute !important;
+  //  height: auto;
+  //  background-color: rgba($color: #fff, $alpha: 0.97) !important;
+  //}
 }
 
 @keyframes enterMenu {
@@ -95,7 +95,7 @@ html{
   background-color: white;
   // So when the menu is active, fills the screen with the menu
   overflow: scroll;
-  height: 88vh;
+  height: 85vh;
   @include lg {
     height: auto;
     background-color: rgba($color: #fff, $alpha: 0.1);

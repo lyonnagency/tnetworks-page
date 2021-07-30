@@ -235,11 +235,15 @@
 
 // Partenrs
 .partner-tn-1 {
-  background-image: url("../img/svg/tn-partner-vmware.svg");
+  background-image: url("../img/svg/partners/vmware-w.svg");
   background-size: cover;
   width: 92px;
   height: 14px;
-
+  transition: background-image 0.3s ease-in-out;
+  &:hover{
+    //cursor: pointer;
+    background-image: url("../img/svg/partners/vmware-color.svg");
+  }
   @include sm {
     width: 106px;
     height: 16px;
@@ -253,14 +257,19 @@
     width: 118px;
     height: 18px;
   }
+
 }
 
 .partner-tn-2 {
-  background-image: url("../img/svg/tn-partner-microsoft.svg");
+  background-image: url("../img/svg/partners/parter-microsoft-w.svg");
   background-size: cover;
   width: 120px;
   height: 25px;
-
+  transition: background-image 0.3s ease-in-out;
+  &:hover{
+    //cursor: pointer;
+    background-image: url("../img/svg/partners/parter-microsoft-c.svg");
+  }
   @include sm {
     width: 138px;
     height: 29px;
@@ -277,33 +286,41 @@
 }
 
 .partner-tn-3 {
-  background-image: url("../img/svg/tn-partner-veeam.svg");
+  background-image: url("../img/svg/partners/partner-veeam-w.svg");
   background-size: cover;
 
-  width: 81px;
-  height: 41px;
-
+  width: 80px;
+  height: 14px;
+  transition: background-image 0.3s ease-in-out;
+  &:hover{
+    //cursor: pointer;
+    background-image: url("../img/svg/partners/partner-veeam-c.svg");
+  }
   @include sm {
     width: 94px;
-    height: 48px;
+    height: 17px;
   }
 
   @include md {
-    width: 98px;
-    height: 50px;
+    width: 85%;
+    height: 21px;
   }
   @include lg {
-    width: 104px;
-    height: 53px;
+    width: 111px;
+    height: 20px;
   }
 }
 
 .partner-tn-4 {
-  background-image: url("../img/svg/tn-partner-hp.svg");
+  background-image: url("../img/svg/partners/partner-hp-w.svg");
   background-size: cover;
   width: 99px;
   height: 41px;
-
+  transition: background-image 0.3s ease-in-out;
+  &:hover{
+    //cursor: pointer;
+    background-image: url("../img/svg/partners/partner-hp-color.svg");
+  }
   @include sm {
     width: 114px;
     height: 48px;
@@ -321,33 +338,41 @@
 }
 
 .partner-tn-5 {
-  background-image: url("../img/svg/tn-partner-cisco.svg");
+  background-image: url("../img/svg/partners/partner-cisco-w.svg");
   background-size: cover;
   width: 71px;
-  height: 37px;
-
+  height: 38px;
+  transition: background-image 0.3s ease-in-out;
+  &:hover{
+    //cursor: pointer;
+    background-image: url("../img/svg/partners/partner-cisco-color.svg");
+  }
   @include sm {
     width: 83px;
-    height: 43px;
+    height: 44px;
   }
 
   @include md {
     width: 86px;
-    height: 45px;
+    height: 46px;
   }
 
   @include lg {
     width: 92px;
-    height: 48px;
+    height: 49px;
   }
 }
 
 .partner-tn-6 {
-  background-image: url("../img/svg/tn-partner-purestorage.svg");
+  background-image: url("../img/svg/partners/partner-purestorage-w.svg");
   background-size: cover;
   width: 124px;
   height: 22px;
-
+  transition: background-image 0.3s ease-in-out;
+  &:hover{
+    cursor: pointer;
+    background-image: url("../img/svg/partners/partner-purestorage-c.svg");
+  }
   @include sm {
     width: 143px;
     height: 26px;
@@ -355,12 +380,13 @@
 
   @include md {
     width: 148px;
-    height: 27px;
+    height: 23px;
   }
   @include lg {
     width: 158px;
     height: 28px;
   }
+
 }
 
 // INDUSTRY 0.4
@@ -639,6 +665,25 @@
   }
 }
 
+.custommer-8 {
+  //width: 100px;
+  //height: 73px;
+  //
+  //@include sm {
+  //  width: 103px;
+  //  height: 75px;
+  //}
+  //
+  //@include md {
+  //  width: 113px;
+  //  height: 82px;
+  //}
+  //@include lg {
+  //  width: 100%;
+  //  height: 150px;
+  //}
+}
+
 .card-industry {
   transition: background-color 1s ease-in-out;
 
@@ -801,30 +846,46 @@
   height: 24px;
 }
 
-.avatar-contact {
-  width: 155px;
+.avatar-contact-container{
 
-  @include sm {
-    width: 373px;
+  .avatar-contact {
+    overflow: hidden;
+    border-radius: 50%;
+
+    height: 203px;
+    width: 203px;
+
+    @include sm {
+      height: 190px;
+      width: 190px;
+    }
+    @include md {
+      height: 230px;
+      width: 230px;
+    }
+    @include lg {
+      height: 270px;
+      width: 270px;
+    }
   }
-
-
 }
+
+
 
 .landing {
   h3.text-blue-tn {
-    color: black;
+    color: black!important;
   }
 
   p {
-    color: $ornageTn;
+    color: $ornageTn!important;
   }
 
   button.btn-blue {
     background-color: $ornageTn;
 
     p {
-      color: white;
+      color: white!important;
       font-family: aalto-sans-pro-medium;
       font-weight: 300;
     }
@@ -957,6 +1018,8 @@
 .btn-form-landing{
   border-radius: 15px;
 }
+
+
 
 
 

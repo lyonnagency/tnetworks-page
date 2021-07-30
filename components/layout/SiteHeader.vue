@@ -12,6 +12,7 @@
           alt="Oseznos logo header"
           class="d-lg-none"
         />
+        <img src="https://tracker.metricool.com/c3po.jpg?hash=1fbaffd28a1ceb4f4805657758028bb3"/>
       </nuxt-link>
       <b-navbar-toggle
         target="nav-collapse"
@@ -54,7 +55,7 @@
             <li class="nav-item my-1 my-sm-0">
               <a
                 class="text-blue-tn py-2"
-                href="#">
+                href="#aboutus">
                 Nosotros
               </a>
             </li>

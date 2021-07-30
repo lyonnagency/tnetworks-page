@@ -46,7 +46,12 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/gtm'
+
   ],
+  gtm: {
+    id: 'GTM-NRDWDVX'
+  },
   /*
   ** Nuxt.js modules
   */
@@ -54,6 +59,12 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     '@nuxtjs/axios',
+    // With options
+    ['nuxt-linkedin-pixel-module', {
+      /* module options */
+      partnerId: '',
+      disabled: false
+    }],
   ],
   // Axios
   axios: {
@@ -61,7 +72,7 @@ export default {
     // baseUrl:''
   },
   server:{
-    host:'192.168.1.72'
+    // host:'192.168.1.72'
   },
   /*
   ** Build configuration
