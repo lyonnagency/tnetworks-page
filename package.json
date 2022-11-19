@@ -19,7 +19,7 @@
     "kind-of": "^6.0.3",
     "lodash": "^4.17.19",
     "minimist": "^1.2.5",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-linkedin-pixel-module": "^1.0.2",
     "serialize-javascript": "^4.0.0",
     "vee-validate": "^3.1.0"
